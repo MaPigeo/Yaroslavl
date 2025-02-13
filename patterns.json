@@ -1,0 +1,15 @@
+[
+    {
+      "pattern": "openConnection:()Ljava/net/URLConnection;",
+      "riskLevel": "High",
+      "type": "HTTP Requests",
+      "text": "the code connects to external server"
+    },
+    {
+      "pattern": "java/net/HttpURLConnection",
+      "riskLevel": "High",
+      "type": "HTTP Requests",
+      "text": "uses HttpURLConnection class"
+    }
+  ]
+  

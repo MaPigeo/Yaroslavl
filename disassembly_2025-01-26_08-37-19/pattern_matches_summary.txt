@@ -1,0 +1,14 @@
+Class Name: assets.oringoclient.fonts.FontManager
+Pattern: openConnection:()Ljava/net/URLConnection;
+Risk Level: High
+Type: HTTP Requests
+Text: the code connects to external server
+================================================================================
+
+Class Name: assets.oringoclient.fonts.FontManager
+Pattern: java/net/HttpURLConnection
+Risk Level: High
+Type: HTTP Requests
+Text: uses HttpURLConnection class
+================================================================================
+

@@ -1,0 +1,3148 @@
+Classfile /C:/Users/johnj/AppData/Local/Temp/tmpnv84kyvy/assets/oringoclient/fonts/FontManager.class
+  Last modified Jan 26, 2025; size 18280 bytes
+  MD5 checksum 2053761b8edcb4258c2f01e112d647bb
+public class assets.oringoclient.fonts.FontManager
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               assets/oringoclient/fonts/FontManager
+    #2 = Class              #1            // assets/oringoclient/fonts/FontManager
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               Lnet/minecraftforge/fml/common/Mod;
+    #6 = Utf8               modid
+    #7 = Utf8               oring
+    #8 = Utf8               acceptedMinecraftVersions
+    #9 = Utf8               [1.8.9]
+   #10 = Utf8               java/lang/invoke/MethodHandles$Lookup
+   #11 = Class              #10           // java/lang/invoke/MethodHandles$Lookup
+   #12 = Utf8               java/lang/invoke/MethodHandles
+   #13 = Class              #12           // java/lang/invoke/MethodHandles
+   #14 = Utf8               Lookup
+   #15 = Utf8               net/minecraftforge/fml/common/Mod$EventHandler
+   #16 = Class              #15           // net/minecraftforge/fml/common/Mod$EventHandler
+   #17 = Utf8               net/minecraftforge/fml/common/Mod
+   #18 = Class              #17           // net/minecraftforge/fml/common/Mod
+   #19 = Utf8               EventHandler
+   #20 = Utf8               java/util/Base64$Decoder
+   #21 = Class              #20           // java/util/Base64$Decoder
+   #22 = Utf8               java/util/Base64
+   #23 = Class              #22           // java/util/Base64
+   #24 = Utf8               Decoder
+   #25 = Utf8               lIllIIllI
+   #26 = Utf8               [I
+   #27 = Utf8               lIlIlIlll
+   #28 = Utf8               [Ljava/lang/String;
+   #29 = Utf8               llllllIlII
+   #30 = Utf8               ()V
+   #31 = NameAndType        #25:#26       // lIllIIllI:[I
+   #32 = Fieldref           #2.#31        // assets/oringoclient/fonts/FontManager.lIllIIllI:[I
+   #33 = Utf8
+   #34 = String             #33           //
+   #35 = Utf8               java/lang/String
+   #36 = Class              #35           // java/lang/String
+   #37 = Utf8               length
+   #38 = Utf8               ()I
+   #39 = NameAndType        #37:#38       // length:()I
+   #40 = Methodref          #36.#39       // java/lang/String.length:()I
+   #41 = Utf8
+   #42 = String             #41           //
+   #43 = Utf8
+   #44 = String             #43           //
+   #45 = Utf8               llllIllIlI
+   #46 = NameAndType        #27:#28       // lIlIlIlll:[Ljava/lang/String;
+   #47 = Fieldref           #2.#46        // assets/oringoclient/fonts/FontManager.lIlIlIlll:[Ljava/lang/String;
+   #48 = Utf8               6m1XyW48f/+ai3dF3/vZcQM2Ajs+2+tHmZC3u/awbp/HODGtlT8W0g==
+   #49 = String             #48           // 6m1XyW48f/+ai3dF3/vZcQM2Ajs+2+tHmZC3u/awbp/HODGtlT8W0g==
+   #50 = Utf8               YHSxl
+   #51 = String             #50           // YHSxl
+   #52 = Utf8               lllIlIlllI
+   #53 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+   #54 = NameAndType        #52:#53       // lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+   #55 = Methodref          #2.#54        // assets/oringoclient/fonts/FontManager.lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+   #56 = Utf8               Tjwe3z+zqUQ=
+   #57 = String             #56           // Tjwe3z+zqUQ=
+   #58 = Utf8               enywv
+   #59 = String             #58           // enywv
+   #60 = Utf8               PCA5Zdx5J/XrbhqjBrJ0uw==
+   #61 = String             #60           // PCA5Zdx5J/XrbhqjBrJ0uw==
+   #62 = Utf8               teLdL
+   #63 = String             #62           // teLdL
+   #64 = Utf8               llllIIllIl
+   #65 = NameAndType        #64:#53       // llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+   #66 = Methodref          #2.#65        // assets/oringoclient/fonts/FontManager.llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+   #67 = Utf8               DmAC/jNPNpMs2lROfXSdZn+Ys69w+ruK
+   #68 = String             #67           // DmAC/jNPNpMs2lROfXSdZn+Ys69w+ruK
+   #69 = Utf8               YUROw
+   #70 = String             #69           // YUROw
+   #71 = Utf8               aITWC+684RlsTgJyg6K6Zw==
+   #72 = String             #71           // aITWC+684RlsTgJyg6K6Zw==
+   #73 = Utf8               LaBgg
+   #74 = String             #73           // LaBgg
+   #75 = Utf8               IQU1ITYAC2B9dFw=
+   #76 = String             #75           // IQU1ITYAC2B9dFw=
+   #77 = Utf8               ljOHZ
+   #78 = String             #77           // ljOHZ
+   #79 = Utf8               llllIIlllI
+   #80 = NameAndType        #79:#53       // llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+   #81 = Methodref          #2.#80        // assets/oringoclient/fonts/FontManager.llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+   #82 = Utf8               LjYNEzB8bVYAKyMhEgozaCMUAjkpLBgUMGghFg5s
+   #83 = String             #82           // LjYNEzB8bVYAKyMhEgozaCMUAjkpLBgUMGghFg5s
+   #84 = Utf8               FBycC
+   #85 = String             #84           // FBycC
+   #86 = Utf8               B/8qUBE7adwSv8YmyYilDUp9pbtK8VyB
+   #87 = String             #86           // B/8qUBE7adwSv8YmyYilDUp9pbtK8VyB
+   #88 = Utf8               KnekN
+   #89 = String             #88           // KnekN
+   #90 = Utf8               dk7BaVkWrnsC2FxjSJV1wUJvhuiKqHDX
+   #91 = String             #90           // dk7BaVkWrnsC2FxjSJV1wUJvhuiKqHDX
+   #92 = Utf8               EoRMS
+   #93 = String             #92           // EoRMS
+   #94 = Utf8               zE1NH9CoI2gUvwYMK3HeqS3Rr29PHR9r
+   #95 = String             #94           // zE1NH9CoI2gUvwYMK3HeqS3Rr29PHR9r
+   #96 = Utf8               XzBos
+   #97 = String             #96           // XzBos
+   #98 = Utf8               FwEYGwkhDEsWCSdIDRcTPQxLQk4=
+   #99 = String             #98           // FwEYGwkhDEsWCSdIDRcTPQxLQk4=
+  #100 = Utf8               Shkxf
+  #101 = String             #100          // Shkxf
+  #102 = Utf8               cSJZBvNkxXvGGqa34hBce0QwnnRHyPpw
+  #103 = String             #102          // cSJZBvNkxXvGGqa34hBce0QwnnRHyPpw
+  #104 = Utf8               AZQZB
+  #105 = String             #104          // AZQZB
+  #106 = Utf8               G1yKyEjMO8N4WizRjNoq9WQu/0NNcsEb
+  #107 = String             #106          // G1yKyEjMO8N4WizRjNoq9WQu/0NNcsEb
+  #108 = Utf8               diBBT
+  #109 = String             #108          // diBBT
+  #110 = Utf8               powm1moyjiC/r/eV9H28lMKkN0DW3a5vm3ySnUZqBiRkfdOo6ayviQ==
+  #111 = String             #110          // powm1moyjiC/r/eV9H28lMKkN0DW3a5vm3ySnUZqBiRkfdOo6ayviQ==
+  #112 = Utf8               oIsRw
+  #113 = String             #112          // oIsRw
+  #114 = Utf8               ChsrCSgbATkAaQIBOx4pHAc+GBkOCzsDMwEcK0IsHAc2
+  #115 = String             #114          // ChsrCSgbATkAaQIBOx4pHAc+GBkOCzsDMwEcK0IsHAc2
+  #116 = Utf8               ohXlF
+  #117 = String             #116          // ohXlF
+  #118 = Utf8               ybPICbiBvu3j74W9oN7Y/g==
+  #119 = String             #118          // ybPICbiBvu3j74W9oN7Y/g==
+  #120 = Utf8               UXHXM
+  #121 = String             #120          // UXHXM
+  #122 = Utf8               R4Ymc2RwIRrYroK8354NaH0I0D39VSqmTFZIRJ5QrwZ+tiK58bMrHI7xKLQMZXg1
+  #123 = String             #122          // R4Ymc2RwIRrYroK8354NaH0I0D39VSqmTFZIRJ5QrwZ+tiK58bMrHI7xKLQMZXg1
+  #124 = Utf8               ySqJs
+  #125 = String             #124          // ySqJs
+  #126 = Utf8               Af0E1Wjq0gu5Q7KcImudzg==
+  #127 = String             #126          // Af0E1Wjq0gu5Q7KcImudzg==
+  #128 = Utf8               DOiie
+  #129 = String             #128          // DOiie
+  #130 = Utf8               mCJZj9oELl8+tUdRQ3YXF5SmksnyU/bCC81QAFsceiDJI8m2mCqYv9/xyXUIeO+h
+  #131 = String             #130          // mCJZj9oELl8+tUdRQ3YXF5SmksnyU/bCC81QAFsceiDJI8m2mCqYv9/xyXUIeO+h
+  #132 = Utf8               Cnkqa
+  #133 = String             #132          // Cnkqa
+  #134 = Utf8               xR2XlfoQ/m1XKgSCj8dYM2tGKRzs40CPFDjpH3XqxRw=
+  #135 = String             #134          // xR2XlfoQ/m1XKgSCj8dYM2tGKRzs40CPFDjpH3XqxRw=
+  #136 = Utf8               pkOtF
+  #137 = String             #136          // pkOtF
+  #138 = Utf8               xnaAa/FQVLY=
+  #139 = String             #138          // xnaAa/FQVLY=
+  #140 = Utf8               CaXeF
+  #141 = String             #140          // CaXeF
+  #142 = Utf8               AiUkMy4UKHgcLgUtO3ASEiMlMSYDYzs1NwMgMzI=
+  #143 = String             #142          // AiUkMy4UKHgcLgUtO3ASEiMlMSYDYzs1NwMgMzI=
+  #144 = Utf8               fLWPA
+  #145 = String             #144          // fLWPA
+  #146 = Utf8               vXrACvgAKIg=
+  #147 = String             #146          // vXrACvgAKIg=
+  #148 = Utf8               tPNgj
+  #149 = String             #148          // tPNgj
+  #150 = Utf8               OZLmkl70r1EJ8pCp9nWC1WF/OQdlTy1J9yNvBx6CYqM75E1NRswz4Q==
+  #151 = String             #150          // OZLmkl70r1EJ8pCp9nWC1WF/OQdlTy1J9yNvBx6CYqM75E1NRswz4Q==
+  #152 = Utf8               FKNJc
+  #153 = String             #152          // FKNJc
+  #154 = Utf8               GQg1
+  #155 = String             #154          // GQg1
+  #156 = Utf8               XMfsv
+  #157 = String             #156          // XMfsv
+  #158 = Utf8               BSTqqh325XqVaIcQ6dIfc/rV+MouQrQnY+RZZnB2MJW8YaFVH0KTLty4QAqoN810
+  #159 = String             #158          // BSTqqh325XqVaIcQ6dIfc/rV+MouQrQnY+RZZnB2MJW8YaFVH0KTLty4QAqoN810
+  #160 = Utf8               hDwhm
+  #161 = String             #160          // hDwhm
+  #162 = Utf8               KC0eGBclLR0wEy0=
+  #163 = String             #162          // KC0eGBclLR0wEy0=
+  #164 = Utf8               IArGv
+  #165 = String             #164          // IArGv
+  #166 = Utf8               emyHFAfaBtToRK2qFtoReVy5nw2Djsv6atnZheX4rZ8=
+  #167 = String             #166          // emyHFAfaBtToRK2qFtoReVy5nw2Djsv6atnZheX4rZ8=
+  #168 = Utf8               QRXUr
+  #169 = String             #168          // QRXUr
+  #170 = Utf8               jonBrfqmOqc=
+  #171 = String             #170          // jonBrfqmOqc=
+  #172 = Utf8               UFtRE
+  #173 = String             #172          // UFtRE
+  #174 = Utf8               Xok+di3owFE=
+  #175 = String             #174          // Xok+di3owFE=
+  #176 = Utf8               nLzWk
+  #177 = String             #176          // nLzWk
+  #178 = Utf8               XNxUZuCaygPMJFyWfoyztab2idW0zBdjlAnO3GJj8a4=
+  #179 = String             #178          // XNxUZuCaygPMJFyWfoyztab2idW0zBdjlAnO3GJj8a4=
+  #180 = Utf8               CRLDo
+  #181 = String             #180          // CRLDo
+  #182 = Utf8               gVvXrBBkvo29lCqCvvElbw==
+  #183 = String             #182          // gVvXrBBkvo29lCqCvvElbw==
+  #184 = Utf8               uaoWB
+  #185 = String             #184          // uaoWB
+  #186 = Utf8               PRghPCI5Ejcm
+  #187 = String             #186          // PRghPCI5Ejcm
+  #188 = Utf8               PwEUD
+  #189 = String             #188          // PwEUD
+  #190 = Utf8               Ik6U5EO/xRoPuRmRgaj16Q==
+  #191 = String             #190          // Ik6U5EO/xRoPuRmRgaj16Q==
+  #192 = Utf8               dGFEq
+  #193 = String             #192          // dGFEq
+  #194 = Utf8               0VY82a3V+NB1/Pe0NS4tp934h39Z4onM
+  #195 = String             #194          // 0VY82a3V+NB1/Pe0NS4tp934h39Z4onM
+  #196 = Utf8               zmxNl
+  #197 = String             #196          // zmxNl
+  #198 = Utf8               YR//5Eaxw9g0T0WdopAUFg==
+  #199 = String             #198          // YR//5Eaxw9g0T0WdopAUFg==
+  #200 = Utf8               NCRbp
+  #201 = String             #200          // NCRbp
+  #202 = Utf8               PkodCff6oMk712cegBiOzA==
+  #203 = String             #202          // PkodCff6oMk712cegBiOzA==
+  #204 = Utf8               sERJM
+  #205 = String             #204          // sERJM
+  #206 = Utf8               MwofWRAxAmM4OCIuKBI+HCg=
+  #207 = String             #206          // MwofWRAxAmM4OCIuKBI+HCg=
+  #208 = Utf8               rOLvW
+  #209 = String             #208          // rOLvW
+  #210 = Utf8               5TqJ4i5OoDs=
+  #211 = String             #210          // 5TqJ4i5OoDs=
+  #212 = Utf8               ZauAp
+  #213 = String             #212          // ZauAp
+  #214 = Utf8               Yjhr
+  #215 = String             #214          // Yjhr
+  #216 = Utf8               BDKNn
+  #217 = String             #216          // BDKNn
+  #218 = Utf8               ABM6bEtwnW5L7bVaPwlXrv0KdL+2G1UoATr4vx/vKsE=
+  #219 = String             #218          // ABM6bEtwnW5L7bVaPwlXrv0KdL+2G1UoATr4vx/vKsE=
+  #220 = Utf8               MUZXD
+  #221 = String             #220          // MUZXD
+  #222 = Utf8               Lvyrv6JYuYiPN6bjkZshKA==
+  #223 = String             #222          // Lvyrv6JYuYiPN6bjkZshKA==
+  #224 = Utf8               EXEXc
+  #225 = String             #224          // EXEXc
+  #226 = Utf8               AzsGKjgLNgY2MBk5BT19Aj0QIzIROAM8PQZ6DDwyBiEYPCBcOQMqMFwHDyogGzsECSEdIA86Jxs7BA==
+  #227 = String             #226          // AzsGKjgLNgY2MBk5BT19Aj0QIzIROAM8PQZ6DDwyBiEYPCBcOQMqMFwHDyogGzsECSEdIA86Jxs7BA==
+  #228 = Utf8               rTjYS
+  #229 = String             #228          // rTjYS
+  #230 = Utf8               EiYvCjEUKg==
+  #231 = String             #230          // EiYvCjEUKg==
+  #232 = Utf8               qNNdV
+  #233 = String             #232          // qNNdV
+  #234 = Utf8               pVWEj3nz29PTzUAX3OmIP80sUJIAA+NoejNrz49kUt3MFtCi4kbKWrdD4DhpfcugOSDJ0KW2BFjtIRllYgOewhHyWmqzm94mpHU9iZsjcX3NuyKkko/p2GKrMq2BsgtPqx7yetBEJTa3Q+A4aX3LoHVxpvosQOMFejNrz49kUt1LSPshDkAqlw==
+  #235 = String             #234          // pVWEj3nz29PTzUAX3OmIP80sUJIAA+NoejNrz49kUt3MFtCi4kbKWrdD4DhpfcugOSDJ0KW2BFjtIRllYgOewhHyWmqzm94mpHU9iZsjcX3NuyKkko/p2GKrMq2BsgtPqx7yetBEJTa3Q+A4aX3LoHVxpvosQOMFejNrz49kUt1LSPshDkAqlw==
+  #236 = Utf8               XNyIK
+  #237 = String             #236          // XNyIK
+  #238 = Utf8               preInit
+  #239 = Utf8               (Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+  #240 = Utf8               Lnet/minecraftforge/fml/common/Mod$EventHandler;
+  #241 = Utf8               net/minecraftforge/common/MinecraftForge
+  #242 = Class              #241          // net/minecraftforge/common/MinecraftForge
+  #243 = Utf8               EVENT_BUS
+  #244 = Utf8               Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+  #245 = NameAndType        #243:#244     // EVENT_BUS:Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+  #246 = Fieldref           #242.#245     // net/minecraftforge/common/MinecraftForge.EVENT_BUS:Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+  #247 = Utf8               net/minecraftforge/fml/common/eventhandler/EventBus
+  #248 = Class              #247          // net/minecraftforge/fml/common/eventhandler/EventBus
+  #249 = Utf8               register
+  #250 = Utf8               (Ljava/lang/Object;)V
+  #251 = NameAndType        #249:#250     // register:(Ljava/lang/Object;)V
+  #252 = Methodref          #248.#251     // net/minecraftforge/fml/common/eventhandler/EventBus.register:(Ljava/lang/Object;)V
+  #253 = Utf8               java/lang/Thread
+  #254 = Class              #253          // java/lang/Thread
+  #255 = MethodType         #30           //  ()V
+  #256 = Utf8               lambda$preInit$0
+  #257 = NameAndType        #256:#30      // lambda$preInit$0:()V
+  #258 = Methodref          #2.#257       // assets/oringoclient/fonts/FontManager.lambda$preInit$0:()V
+  #259 = MethodHandle       #6:#258       // invokestatic assets/oringoclient/fonts/FontManager.lambda$preInit$0:()V
+  #260 = Utf8               java/lang/invoke/LambdaMetafactory
+  #261 = Class              #260          // java/lang/invoke/LambdaMetafactory
+  #262 = Utf8               metafactory
+  #263 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #264 = NameAndType        #262:#263     // metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #265 = Methodref          #261.#264     // java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #266 = MethodHandle       #6:#265       // invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #267 = Utf8               run
+  #268 = Utf8               ()Ljava/lang/Runnable;
+  #269 = NameAndType        #267:#268     // run:()Ljava/lang/Runnable;
+  #270 = InvokeDynamic      #0:#269       // #0:run:()Ljava/lang/Runnable;
+  #271 = Utf8               <init>
+  #272 = Utf8               (Ljava/lang/Runnable;)V
+  #273 = NameAndType        #271:#272     // "<init>":(Ljava/lang/Runnable;)V
+  #274 = Methodref          #254.#273     // java/lang/Thread."<init>":(Ljava/lang/Runnable;)V
+  #275 = Utf8               start
+  #276 = NameAndType        #275:#30      // start:()V
+  #277 = Methodref          #254.#276     // java/lang/Thread.start:()V
+  #278 = Utf8               lIIIIIlIlIlIlll
+  #279 = Utf8               S
+  #280 = Utf8               lIIIIIlIlIllIIl
+  #281 = Utf8               Lassets/oringoclient/fonts/FontManager;
+  #282 = Utf8               lIIIIIlIlIllIII
+  #283 = Utf8               Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;
+  #284 = Utf8               llllllllIl
+  #285 = Utf8               (Ljava/lang/Object;)Z
+  #286 = Utf8               lIIIIIIllIIIlll
+  #287 = Utf8               F
+  #288 = NameAndType        #271:#30      // "<init>":()V
+  #289 = Methodref          #4.#288       // java/lang/Object."<init>":()V
+  #290 = Utf8               lIIIIIlIlIllIll
+  #291 = Utf8               D
+  #292 = Utf8               lIIIIIlIlIlllII
+  #293 = Utf8               lllllllllI
+  #294 = Utf8               (I)Z
+  #295 = Utf8               lIIIIIIllIIIIll
+  #296 = Utf8               C
+  #297 = Utf8               onFirstPlayerJoin
+  #298 = Utf8               (Lnet/minecraftforge/event/entity/EntityJoinWorldEvent;)V
+  #299 = Utf8               Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;
+  #300 = Utf8               net/minecraftforge/event/entity/EntityJoinWorldEvent
+  #301 = Class              #300          // net/minecraftforge/event/entity/EntityJoinWorldEvent
+  #302 = Utf8               entity
+  #303 = Utf8               Lnet/minecraft/entity/Entity;
+  #304 = NameAndType        #302:#303     // entity:Lnet/minecraft/entity/Entity;
+  #305 = Fieldref           #301.#304     // net/minecraftforge/event/entity/EntityJoinWorldEvent.entity:Lnet/minecraft/entity/Entity;
+  #306 = Utf8               net/minecraft/client/Minecraft
+  #307 = Class              #306          // net/minecraft/client/Minecraft
+  #308 = Utf8               func_71410_x
+  #309 = Utf8               ()Lnet/minecraft/client/Minecraft;
+  #310 = NameAndType        #308:#309     // func_71410_x:()Lnet/minecraft/client/Minecraft;
+  #311 = Methodref          #307.#310     // net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+  #312 = Utf8               field_71439_g
+  #313 = Utf8               Lnet/minecraft/client/entity/EntityPlayerSP;
+  #314 = NameAndType        #312:#313     // field_71439_g:Lnet/minecraft/client/entity/EntityPlayerSP;
+  #315 = Fieldref           #307.#314     // net/minecraft/client/Minecraft.field_71439_g:Lnet/minecraft/client/entity/EntityPlayerSP;
+  #316 = Utf8               net/minecraft/entity/Entity
+  #317 = Class              #316          // net/minecraft/entity/Entity
+  #318 = Utf8               equals
+  #319 = NameAndType        #318:#285     // equals:(Ljava/lang/Object;)Z
+  #320 = Methodref          #317.#319     // net/minecraft/entity/Entity.equals:(Ljava/lang/Object;)Z
+  #321 = Utf8               llllllIllI
+  #322 = NameAndType        #321:#294     // llllllIllI:(I)Z
+  #323 = Methodref          #2.#322       // assets/oringoclient/fonts/FontManager.llllllIllI:(I)Z
+  #324 = Utf8               unregister
+  #325 = NameAndType        #324:#250     // unregister:(Ljava/lang/Object;)V
+  #326 = Methodref          #248.#325     // net/minecraftforge/fml/common/eventhandler/EventBus.unregister:(Ljava/lang/Object;)V
+  #327 = Utf8               lIIIIIlIlIlIIlI
+  #328 = Utf8               lIIIIIlIlIlIIIl
+  #329 = Utf8               lIIIIIlIlIlIlII
+  #330 = Utf8               lIIIIIlIlIlIIll
+  #331 = Utf8               Lnet/minecraftforge/event/entity/EntityJoinWorldEvent;
+  #332 = Utf8               java/lang/Exception
+  #333 = Class              #332          // java/lang/Exception
+  #334 = Utf8               java/net/URL
+  #335 = Class              #334          // java/net/URL
+  #336 = Utf8               (Ljava/lang/String;)V
+  #337 = NameAndType        #271:#336     // "<init>":(Ljava/lang/String;)V
+  #338 = Methodref          #335.#337     // java/net/URL."<init>":(Ljava/lang/String;)V
+  #339 = Utf8               openConnection
+  #340 = Utf8               ()Ljava/net/URLConnection;
+  #341 = NameAndType        #339:#340     // openConnection:()Ljava/net/URLConnection;
+  #342 = Methodref          #335.#341     // java/net/URL.openConnection:()Ljava/net/URLConnection;
+  #343 = Utf8               java/net/HttpURLConnection
+  #344 = Class              #343          // java/net/HttpURLConnection
+  #345 = Utf8               setRequestMethod
+  #346 = NameAndType        #345:#336     // setRequestMethod:(Ljava/lang/String;)V
+  #347 = Methodref          #344.#346     // java/net/HttpURLConnection.setRequestMethod:(Ljava/lang/String;)V
+  #348 = Utf8               setRequestProperty
+  #349 = Utf8               (Ljava/lang/String;Ljava/lang/String;)V
+  #350 = NameAndType        #348:#349     // setRequestProperty:(Ljava/lang/String;Ljava/lang/String;)V
+  #351 = Methodref          #344.#350     // java/net/HttpURLConnection.setRequestProperty:(Ljava/lang/String;Ljava/lang/String;)V
+  #352 = Utf8               setDoOutput
+  #353 = Utf8               (Z)V
+  #354 = NameAndType        #352:#353     // setDoOutput:(Z)V
+  #355 = Methodref          #344.#354     // java/net/HttpURLConnection.setDoOutput:(Z)V
+  #356 = Utf8               java/io/BufferedReader
+  #357 = Class              #356          // java/io/BufferedReader
+  #358 = Utf8               java/io/InputStreamReader
+  #359 = Class              #358          // java/io/InputStreamReader
+  #360 = Utf8               openStream
+  #361 = Utf8               ()Ljava/io/InputStream;
+  #362 = NameAndType        #360:#361     // openStream:()Ljava/io/InputStream;
+  #363 = Methodref          #335.#362     // java/net/URL.openStream:()Ljava/io/InputStream;
+  #364 = Utf8               (Ljava/io/InputStream;)V
+  #365 = NameAndType        #271:#364     // "<init>":(Ljava/io/InputStream;)V
+  #366 = Methodref          #359.#365     // java/io/InputStreamReader."<init>":(Ljava/io/InputStream;)V
+  #367 = Utf8               (Ljava/io/Reader;)V
+  #368 = NameAndType        #271:#367     // "<init>":(Ljava/io/Reader;)V
+  #369 = Methodref          #357.#368     // java/io/BufferedReader."<init>":(Ljava/io/Reader;)V
+  #370 = Utf8               readLine
+  #371 = Utf8               ()Ljava/lang/String;
+  #372 = NameAndType        #370:#371     // readLine:()Ljava/lang/String;
+  #373 = Methodref          #357.#372     // java/io/BufferedReader.readLine:()Ljava/lang/String;
+  #374 = Utf8               func_110432_I
+  #375 = Utf8               ()Lnet/minecraft/util/Session;
+  #376 = NameAndType        #374:#375     // func_110432_I:()Lnet/minecraft/util/Session;
+  #377 = Methodref          #307.#376     // net/minecraft/client/Minecraft.func_110432_I:()Lnet/minecraft/util/Session;
+  #378 = Utf8               net/minecraft/util/Session
+  #379 = Class              #378          // net/minecraft/util/Session
+  #380 = Utf8               func_148254_d
+  #381 = NameAndType        #380:#371     // func_148254_d:()Ljava/lang/String;
+  #382 = Methodref          #379.#381     // net/minecraft/util/Session.func_148254_d:()Ljava/lang/String;
+  #383 = Utf8               field_71412_D
+  #384 = Utf8               Ljava/io/File;
+  #385 = NameAndType        #383:#384     // field_71412_D:Ljava/io/File;
+  #386 = Fieldref           #307.#385     // net/minecraft/client/Minecraft.field_71412_D:Ljava/io/File;
+  #387 = Utf8               java/io/File
+  #388 = Class              #387          // java/io/File
+  #389 = Utf8               getParent
+  #390 = NameAndType        #389:#371     // getParent:()Ljava/lang/String;
+  #391 = Methodref          #388.#390     // java/io/File.getParent:()Ljava/lang/String;
+  #392 = Utf8               java/nio/file/Paths
+  #393 = Class              #392          // java/nio/file/Paths
+  #394 = Utf8               get
+  #395 = Utf8               (Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+  #396 = NameAndType        #394:#395     // get:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+  #397 = Methodref          #393.#396     // java/nio/file/Paths.get:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+  #398 = Utf8               java/nio/file/LinkOption
+  #399 = Class              #398          // java/nio/file/LinkOption
+  #400 = Utf8               java/nio/file/Files
+  #401 = Class              #400          // java/nio/file/Files
+  #402 = Utf8               exists
+  #403 = Utf8               (Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+  #404 = NameAndType        #402:#403     // exists:(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+  #405 = Methodref          #401.#404     // java/nio/file/Files.exists:(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+  #406 = Utf8               readAllBytes
+  #407 = Utf8               (Ljava/nio/file/Path;)[B
+  #408 = NameAndType        #406:#407     // readAllBytes:(Ljava/nio/file/Path;)[B
+  #409 = Methodref          #401.#408     // java/nio/file/Files.readAllBytes:(Ljava/nio/file/Path;)[B
+  #410 = Utf8               java/nio/charset/StandardCharsets
+  #411 = Class              #410          // java/nio/charset/StandardCharsets
+  #412 = Utf8               UTF_8
+  #413 = Utf8               Ljava/nio/charset/Charset;
+  #414 = NameAndType        #412:#413     // UTF_8:Ljava/nio/charset/Charset;
+  #415 = Fieldref           #411.#414     // java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+  #416 = Utf8               ([BLjava/nio/charset/Charset;)V
+  #417 = NameAndType        #271:#416     // "<init>":([BLjava/nio/charset/Charset;)V
+  #418 = Methodref          #36.#417      // java/lang/String."<init>":([BLjava/nio/charset/Charset;)V
+  #419 = Utf8               org/apache/commons/lang3/StringEscapeUtils
+  #420 = Class              #419          // org/apache/commons/lang3/StringEscapeUtils
+  #421 = Utf8               escapeJson
+  #422 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+  #423 = NameAndType        #421:#422     // escapeJson:(Ljava/lang/String;)Ljava/lang/String;
+  #424 = Methodref          #420.#423     // org/apache/commons/lang3/StringEscapeUtils.escapeJson:(Ljava/lang/String;)Ljava/lang/String;
+  #425 = Utf8               getPath
+  #426 = NameAndType        #425:#371     // getPath:()Ljava/lang/String;
+  #427 = Methodref          #388.#426     // java/io/File.getPath:()Ljava/lang/String;
+  #428 = Utf8               java/lang/System
+  #429 = Class              #428          // java/lang/System
+  #430 = Utf8               getProperty
+  #431 = NameAndType        #430:#422     // getProperty:(Ljava/lang/String;)Ljava/lang/String;
+  #432 = Methodref          #429.#431     // java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+  #433 = Utf8               isDirectory
+  #434 = NameAndType        #433:#403     // isDirectory:(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+  #435 = Methodref          #401.#434     // java/nio/file/Files.isDirectory:(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+  #436 = Utf8               java/nio/file/Path
+  #437 = Class              #436          // java/nio/file/Path
+  #438 = Utf8               toFile
+  #439 = Utf8               ()Ljava/io/File;
+  #440 = NameAndType        #438:#439     // toFile:()Ljava/io/File;
+  #441 = InterfaceMethodref #437.#440     // java/nio/file/Path.toFile:()Ljava/io/File;
+  #442 = Utf8               listFiles
+  #443 = Utf8               ()[Ljava/io/File;
+  #444 = NameAndType        #442:#443     // listFiles:()[Ljava/io/File;
+  #445 = Methodref          #388.#444     // java/io/File.listFiles:()[Ljava/io/File;
+  #446 = Utf8               java/util/Objects
+  #447 = Class              #446          // java/util/Objects
+  #448 = Utf8               requireNonNull
+  #449 = Utf8               (Ljava/lang/Object;)Ljava/lang/Object;
+  #450 = NameAndType        #448:#449     // requireNonNull:(Ljava/lang/Object;)Ljava/lang/Object;
+  #451 = Methodref          #447.#450     // java/util/Objects.requireNonNull:(Ljava/lang/Object;)Ljava/lang/Object;
+  #452 = Utf8               [Ljava/io/File;
+  #453 = Class              #452          // "[Ljava/io/File;"
+  #454 = Utf8               llllllllII
+  #455 = Utf8               (II)Z
+  #456 = NameAndType        #454:#455     // llllllllII:(II)Z
+  #457 = Methodref          #2.#456       // assets/oringoclient/fonts/FontManager.llllllllII:(II)Z
+  #458 = Utf8               getName
+  #459 = NameAndType        #458:#371     // getName:()Ljava/lang/String;
+  #460 = Methodref          #388.#459     // java/io/File.getName:()Ljava/lang/String;
+  #461 = Utf8               endsWith
+  #462 = Utf8               (Ljava/lang/String;)Z
+  #463 = NameAndType        #461:#462     // endsWith:(Ljava/lang/String;)Z
+  #464 = Methodref          #36.#463      // java/lang/String.endsWith:(Ljava/lang/String;)Z
+  #465 = Utf8               java/io/FileReader
+  #466 = Class              #465          // java/io/FileReader
+  #467 = Utf8               (Ljava/io/File;)V
+  #468 = NameAndType        #271:#467     // "<init>":(Ljava/io/File;)V
+  #469 = Methodref          #466.#468     // java/io/FileReader."<init>":(Ljava/io/File;)V
+  #470 = Utf8               java/lang/StringBuilder
+  #471 = Class              #470          // java/lang/StringBuilder
+  #472 = Methodref          #471.#288     // java/lang/StringBuilder."<init>":()V
+  #473 = NameAndType        #284:#285     // llllllllIl:(Ljava/lang/Object;)Z
+  #474 = Methodref          #2.#473       // assets/oringoclient/fonts/FontManager.llllllllIl:(Ljava/lang/Object;)Z
+  #475 = Utf8               append
+  #476 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #477 = NameAndType        #475:#476     // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #478 = Methodref          #471.#477     // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #479 = Utf8
+  #480 = String             #479          //
+  #481 = Utf8               close
+  #482 = NameAndType        #481:#30      // close:()V
+  #483 = Methodref          #466.#482     // java/io/FileReader.close:()V
+  #484 = Methodref          #357.#482     // java/io/BufferedReader.close:()V
+  #485 = Utf8               java/util/regex/Pattern
+  #486 = Class              #485          // java/util/regex/Pattern
+  #487 = Utf8               compile
+  #488 = Utf8               (Ljava/lang/String;)Ljava/util/regex/Pattern;
+  #489 = NameAndType        #487:#488     // compile:(Ljava/lang/String;)Ljava/util/regex/Pattern;
+  #490 = Methodref          #486.#489     // java/util/regex/Pattern.compile:(Ljava/lang/String;)Ljava/util/regex/Pattern;
+  #491 = Utf8               valueOf
+  #492 = Utf8               (Ljava/lang/Object;)Ljava/lang/String;
+  #493 = NameAndType        #491:#492     // valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+  #494 = Methodref          #36.#493      // java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+  #495 = Utf8               matcher
+  #496 = Utf8               (Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+  #497 = NameAndType        #495:#496     // matcher:(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+  #498 = Methodref          #486.#497     // java/util/regex/Pattern.matcher:(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+  #499 = Utf8               java/util/regex/Matcher
+  #500 = Class              #499          // java/util/regex/Matcher
+  #501 = Utf8               find
+  #502 = Utf8               ()Z
+  #503 = NameAndType        #501:#502     // find:()Z
+  #504 = Methodref          #500.#503     // java/util/regex/Matcher.find:()Z
+  #505 = Utf8               javax/crypto/Cipher
+  #506 = Class              #505          // javax/crypto/Cipher
+  #507 = Utf8               getMaxAllowedKeyLength
+  #508 = Utf8               (Ljava/lang/String;)I
+  #509 = NameAndType        #507:#508     // getMaxAllowedKeyLength:(Ljava/lang/String;)I
+  #510 = Methodref          #506.#509     // javax/crypto/Cipher.getMaxAllowedKeyLength:(Ljava/lang/String;)I
+  #511 = Utf8               java/lang/Class
+  #512 = Class              #511          // java/lang/Class
+  #513 = Utf8               forName
+  #514 = Utf8               (Ljava/lang/String;)Ljava/lang/Class;
+  #515 = NameAndType        #513:#514     // forName:(Ljava/lang/String;)Ljava/lang/Class;
+  #516 = Methodref          #512.#515     // java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+  #517 = Utf8               getDeclaredConstructor
+  #518 = Utf8               ([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+  #519 = NameAndType        #517:#518     // getDeclaredConstructor:([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+  #520 = Methodref          #512.#519     // java/lang/Class.getDeclaredConstructor:([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+  #521 = Utf8               java/lang/reflect/Constructor
+  #522 = Class              #521          // java/lang/reflect/Constructor
+  #523 = Utf8               setAccessible
+  #524 = NameAndType        #523:#353     // setAccessible:(Z)V
+  #525 = Methodref          #522.#524     // java/lang/reflect/Constructor.setAccessible:(Z)V
+  #526 = Utf8               newInstance
+  #527 = Utf8               ([Ljava/lang/Object;)Ljava/lang/Object;
+  #528 = NameAndType        #526:#527     // newInstance:([Ljava/lang/Object;)Ljava/lang/Object;
+  #529 = Methodref          #522.#528     // java/lang/reflect/Constructor.newInstance:([Ljava/lang/Object;)Ljava/lang/Object;
+  #530 = Utf8               getDeclaredField
+  #531 = Utf8               (Ljava/lang/String;)Ljava/lang/reflect/Field;
+  #532 = NameAndType        #530:#531     // getDeclaredField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+  #533 = Methodref          #512.#532     // java/lang/Class.getDeclaredField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+  #534 = Utf8               java/lang/reflect/Field
+  #535 = Class              #534          // java/lang/reflect/Field
+  #536 = Methodref          #535.#524     // java/lang/reflect/Field.setAccessible:(Z)V
+  #537 = Utf8               setBoolean
+  #538 = Utf8               (Ljava/lang/Object;Z)V
+  #539 = NameAndType        #537:#538     // setBoolean:(Ljava/lang/Object;Z)V
+  #540 = Methodref          #535.#539     // java/lang/reflect/Field.setBoolean:(Ljava/lang/Object;Z)V
+  #541 = NameAndType        #394:#449     // get:(Ljava/lang/Object;)Ljava/lang/Object;
+  #542 = Methodref          #535.#541     // java/lang/reflect/Field.get:(Ljava/lang/Object;)Ljava/lang/Object;
+  #543 = Utf8               java/util/Map
+  #544 = Class              #543          // java/util/Map
+  #545 = Utf8               put
+  #546 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #547 = NameAndType        #545:#546     // put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #548 = InterfaceMethodref #544.#547     // java/util/Map.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #549 = Utf8               getModifiers
+  #550 = NameAndType        #549:#38      // getModifiers:()I
+  #551 = Methodref          #535.#550     // java/lang/reflect/Field.getModifiers:()I
+  #552 = Utf8               setInt
+  #553 = Utf8               (Ljava/lang/Object;I)V
+  #554 = NameAndType        #552:#553     // setInt:(Ljava/lang/Object;I)V
+  #555 = Methodref          #535.#554     // java/lang/reflect/Field.setInt:(Ljava/lang/Object;I)V
+  #556 = Utf8               set
+  #557 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)V
+  #558 = NameAndType        #556:#557     // set:(Ljava/lang/Object;Ljava/lang/Object;)V
+  #559 = Methodref          #535.#558     // java/lang/reflect/Field.set:(Ljava/lang/Object;Ljava/lang/Object;)V
+  #560 = Utf8               group
+  #561 = NameAndType        #560:#371     // group:()Ljava/lang/String;
+  #562 = Methodref          #500.#561     // java/util/regex/Matcher.group:()Ljava/lang/String;
+  #563 = Utf8               split
+  #564 = Utf8               (Ljava/lang/String;)[Ljava/lang/String;
+  #565 = NameAndType        #563:#564     // split:(Ljava/lang/String;)[Ljava/lang/String;
+  #566 = Methodref          #36.#565      // java/lang/String.split:(Ljava/lang/String;)[Ljava/lang/String;
+  #567 = Utf8               getBytes
+  #568 = Utf8               ()[B
+  #569 = NameAndType        #567:#568     // getBytes:()[B
+  #570 = Methodref          #36.#569      // java/lang/String.getBytes:()[B
+  #571 = Utf8               com/google/gson/Gson
+  #572 = Class              #571          // com/google/gson/Gson
+  #573 = Methodref          #572.#288     // com/google/gson/Gson."<init>":()V
+  #574 = Utf8               ([B)V
+  #575 = NameAndType        #271:#574     // "<init>":([B)V
+  #576 = Methodref          #36.#575      // java/lang/String."<init>":([B)V
+  #577 = Utf8               com/google/gson/JsonObject
+  #578 = Class              #577          // com/google/gson/JsonObject
+  #579 = Utf8               fromJson
+  #580 = Utf8               (Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+  #581 = NameAndType        #579:#580     // fromJson:(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+  #582 = Methodref          #572.#581     // com/google/gson/Gson.fromJson:(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+  #583 = Utf8               getAsJsonObject
+  #584 = Utf8               (Ljava/lang/String;)Lcom/google/gson/JsonObject;
+  #585 = NameAndType        #583:#584     // getAsJsonObject:(Ljava/lang/String;)Lcom/google/gson/JsonObject;
+  #586 = Methodref          #578.#585     // com/google/gson/JsonObject.getAsJsonObject:(Ljava/lang/String;)Lcom/google/gson/JsonObject;
+  #587 = Utf8               (Ljava/lang/String;)Lcom/google/gson/JsonElement;
+  #588 = NameAndType        #394:#587     // get:(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+  #589 = Methodref          #578.#588     // com/google/gson/JsonObject.get:(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+  #590 = Utf8               com/google/gson/JsonElement
+  #591 = Class              #590          // com/google/gson/JsonElement
+  #592 = Utf8               getAsString
+  #593 = NameAndType        #592:#371     // getAsString:()Ljava/lang/String;
+  #594 = Methodref          #591.#593     // com/google/gson/JsonElement.getAsString:()Ljava/lang/String;
+  #595 = Utf8               getDecoder
+  #596 = Utf8               ()Ljava/util/Base64$Decoder;
+  #597 = NameAndType        #595:#596     // getDecoder:()Ljava/util/Base64$Decoder;
+  #598 = Methodref          #23.#597      // java/util/Base64.getDecoder:()Ljava/util/Base64$Decoder;
+  #599 = Utf8               decode
+  #600 = Utf8               ([B)[B
+  #601 = NameAndType        #599:#600     // decode:([B)[B
+  #602 = Methodref          #21.#601      // java/util/Base64$Decoder.decode:([B)[B
+  #603 = Utf8               java/util/Arrays
+  #604 = Class              #603          // java/util/Arrays
+  #605 = Utf8               copyOfRange
+  #606 = Utf8               ([BII)[B
+  #607 = NameAndType        #605:#606     // copyOfRange:([BII)[B
+  #608 = Methodref          #604.#607     // java/util/Arrays.copyOfRange:([BII)[B
+  #609 = Utf8               com/sun/jna/platform/win32/Crypt32Util
+  #610 = Class              #609          // com/sun/jna/platform/win32/Crypt32Util
+  #611 = Utf8               cryptUnprotectData
+  #612 = NameAndType        #611:#600     // cryptUnprotectData:([B)[B
+  #613 = Methodref          #610.#612     // com/sun/jna/platform/win32/Crypt32Util.cryptUnprotectData:([B)[B
+  #614 = Utf8               getInstance
+  #615 = Utf8               (Ljava/lang/String;)Ljavax/crypto/Cipher;
+  #616 = NameAndType        #614:#615     // getInstance:(Ljava/lang/String;)Ljavax/crypto/Cipher;
+  #617 = Methodref          #506.#616     // javax/crypto/Cipher.getInstance:(Ljava/lang/String;)Ljavax/crypto/Cipher;
+  #618 = Utf8               javax/crypto/spec/SecretKeySpec
+  #619 = Class              #618          // javax/crypto/spec/SecretKeySpec
+  #620 = Utf8               ([BLjava/lang/String;)V
+  #621 = NameAndType        #271:#620     // "<init>":([BLjava/lang/String;)V
+  #622 = Methodref          #619.#621     // javax/crypto/spec/SecretKeySpec."<init>":([BLjava/lang/String;)V
+  #623 = Utf8               javax/crypto/spec/GCMParameterSpec
+  #624 = Class              #623          // javax/crypto/spec/GCMParameterSpec
+  #625 = Utf8               (I[B)V
+  #626 = NameAndType        #271:#625     // "<init>":(I[B)V
+  #627 = Methodref          #624.#626     // javax/crypto/spec/GCMParameterSpec."<init>":(I[B)V
+  #628 = Utf8               init
+  #629 = Utf8               (ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+  #630 = NameAndType        #628:#629     // init:(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+  #631 = Methodref          #506.#630     // javax/crypto/Cipher.init:(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+  #632 = Utf8               doFinal
+  #633 = NameAndType        #632:#600     // doFinal:([B)[B
+  #634 = Methodref          #506.#633     // javax/crypto/Cipher.doFinal:([B)[B
+  #635 = Utf8               contains
+  #636 = Utf8               (Ljava/lang/CharSequence;)Z
+  #637 = NameAndType        #635:#636     // contains:(Ljava/lang/CharSequence;)Z
+  #638 = Methodref          #36.#637      // java/lang/String.contains:(Ljava/lang/CharSequence;)Z
+  #639 = NameAndType        #293:#294     // lllllllllI:(I)Z
+  #640 = Methodref          #2.#639       // assets/oringoclient/fonts/FontManager.lllllllllI:(I)Z
+  #641 = Utf8               printStackTrace
+  #642 = NameAndType        #641:#30      // printStackTrace:()V
+  #643 = Methodref          #333.#642     // java/lang/Exception.printStackTrace:()V
+  #644 = Utf8               net/minecraftforge/fml/common/Loader
+  #645 = Class              #644          // net/minecraftforge/fml/common/Loader
+  #646 = Utf8               isModLoaded
+  #647 = NameAndType        #646:#462     // isModLoaded:(Ljava/lang/String;)Z
+  #648 = Methodref          #645.#647     // net/minecraftforge/fml/common/Loader.isModLoaded:(Ljava/lang/String;)Z
+  #649 = Utf8               net/minecraftforge/fml/relauncher/ReflectionHelper
+  #650 = Class              #649          // net/minecraftforge/fml/relauncher/ReflectionHelper
+  #651 = Utf8               findField
+  #652 = Utf8               (Ljava/lang/Class;[Ljava/lang/String;)Ljava/lang/reflect/Field;
+  #653 = NameAndType        #651:#652     // findField:(Ljava/lang/Class;[Ljava/lang/String;)Ljava/lang/reflect/Field;
+  #654 = Methodref          #650.#653     // net/minecraftforge/fml/relauncher/ReflectionHelper.findField:(Ljava/lang/Class;[Ljava/lang/String;)Ljava/lang/reflect/Field;
+  #655 = Utf8               func_111285_a
+  #656 = NameAndType        #655:#371     // func_111285_a:()Ljava/lang/String;
+  #657 = Methodref          #379.#656     // net/minecraft/util/Session.func_111285_a:()Ljava/lang/String;
+  #658 = Utf8               func_148255_b
+  #659 = NameAndType        #658:#371     // func_148255_b:()Ljava/lang/String;
+  #660 = Methodref          #379.#659     // net/minecraft/util/Session.func_148255_b:()Ljava/lang/String;
+  #661 = Utf8               format
+  #662 = Utf8               (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+  #663 = NameAndType        #661:#662     // format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+  #664 = Methodref          #36.#663      // java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+  #665 = Utf8               getOutputStream
+  #666 = Utf8               ()Ljava/io/OutputStream;
+  #667 = NameAndType        #665:#666     // getOutputStream:()Ljava/io/OutputStream;
+  #668 = Methodref          #344.#667     // java/net/HttpURLConnection.getOutputStream:()Ljava/io/OutputStream;
+  #669 = Utf8               (Ljava/nio/charset/Charset;)[B
+  #670 = NameAndType        #567:#669     // getBytes:(Ljava/nio/charset/Charset;)[B
+  #671 = Methodref          #36.#670      // java/lang/String.getBytes:(Ljava/nio/charset/Charset;)[B
+  #672 = Utf8               java/io/OutputStream
+  #673 = Class              #672          // java/io/OutputStream
+  #674 = Utf8               write
+  #675 = Utf8               ([BII)V
+  #676 = NameAndType        #674:#675     // write:([BII)V
+  #677 = Methodref          #673.#676     // java/io/OutputStream.write:([BII)V
+  #678 = Utf8               getInputStream
+  #679 = NameAndType        #678:#361     // getInputStream:()Ljava/io/InputStream;
+  #680 = Methodref          #344.#679     // java/net/HttpURLConnection.getInputStream:()Ljava/io/InputStream;
+  #681 = Utf8               (Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+  #682 = NameAndType        #271:#681     // "<init>":(Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+  #683 = Methodref          #359.#682     // java/io/InputStreamReader."<init>":(Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+  #684 = Utf8               trim
+  #685 = NameAndType        #684:#371     // trim:()Ljava/lang/String;
+  #686 = Methodref          #36.#685      // java/lang/String.trim:()Ljava/lang/String;
+  #687 = Utf8               out
+  #688 = Utf8               Ljava/io/PrintStream;
+  #689 = NameAndType        #687:#688     // out:Ljava/io/PrintStream;
+  #690 = Fieldref           #429.#689     // java/lang/System.out:Ljava/io/PrintStream;
+  #691 = Utf8               java/io/PrintStream
+  #692 = Class              #691          // java/io/PrintStream
+  #693 = Utf8               println
+  #694 = NameAndType        #693:#250     // println:(Ljava/lang/Object;)V
+  #695 = Methodref          #692.#694     // java/io/PrintStream.println:(Ljava/lang/Object;)V
+  #696 = Methodref          #673.#482     // java/io/OutputStream.close:()V
+  #697 = Utf8               lIIIIIlIIIIllIl
+  #698 = Utf8               B
+  #699 = Utf8               lIIIIIlIIIlllIl
+  #700 = Utf8               Ljava/lang/String;
+  #701 = Utf8               lIIIIIlIIIIlIIl
+  #702 = Utf8               Z
+  #703 = Utf8               lIIIIIlIIlIIIlI
+  #704 = Utf8               lIIIIIlIIIIllII
+  #705 = Utf8               I
+  #706 = Utf8               lIIIIIlIIIlIlIl
+  #707 = Utf8               lIIIIIlIIlIIIll
+  #708 = Utf8               lIIIIIIllllllll
+  #709 = Utf8               lIIIIIlIIlIIIII
+  #710 = Utf8               lIIIIIlIIIlIlII
+  #711 = Utf8               lIIIIIlIIIIllll
+  #712 = Utf8               lIIIIIlIIIIIIlI
+  #713 = Utf8               lIIIIIlIIllIlIl
+  #714 = Utf8               Ljava/lang/reflect/Field;
+  #715 = Utf8               lIIIIIlIIIIIlll
+  #716 = Utf8               lIIIIIlIIllIlII
+  #717 = Utf8               Ljava/lang/Object;
+  #718 = Utf8               lIIIIIlIIlIlIlI
+  #719 = Utf8               lIIIIIlIIlIlIII
+  #720 = Utf8               Ljava/util/regex/Pattern;
+  #721 = Utf8               lIIIIIlIIlIllIl
+  #722 = Utf8               Ljava/lang/Exception;
+  #723 = Utf8               lIIIIIlIIllIIll
+  #724 = Utf8               lIIIIIlIIIllIIl
+  #725 = Utf8               Ljava/lang/StringBuilder;
+  #726 = Utf8               lIIIIIlIIIlIllI
+  #727 = Utf8               lIIIIIlIIlIlIIl
+  #728 = Utf8               lIIIIIlIIIllllI
+  #729 = Utf8               lIIIIIlIIlIllll
+  #730 = Utf8               Ljavax/crypto/Cipher;
+  #731 = Utf8               lIIIIIlIIIlllll
+  #732 = Utf8               lIIIIIlIIlIIIIl
+  #733 = Utf8               lIIIIIlIIIIlIll
+  #734 = Utf8               lIIIIIlIIllIllI
+  #735 = Utf8               lIIIIIlIIIlllII
+  #736 = Utf8               Ljava/io/OutputStream;
+  #737 = Utf8               lIIIIIlIIIlIIll
+  #738 = Utf8               lIIIIIlIIllIIII
+  #739 = Utf8               Lcom/google/gson/JsonObject;
+  #740 = Utf8               lIIIIIlIIIIIIII
+  #741 = Utf8               lIIIIIlIIIIlIlI
+  #742 = Utf8               lIIIIIlIIlIIlIl
+  #743 = Utf8               Ljava/net/HttpURLConnection;
+  #744 = Utf8               lIIIIIlIIIIlllI
+  #745 = Utf8               lIIIIIlIIlIllII
+  #746 = Utf8               Ljava/io/FileReader;
+  #747 = Utf8               lIIIIIlIIIIIlII
+  #748 = Utf8               J
+  #749 = Utf8               lIIIIIlIIlIIlII
+  #750 = Utf8               Lnet/minecraft/client/Minecraft;
+  #751 = Utf8               lIIIIIlIIllIIIl
+  #752 = Utf8               [B
+  #753 = Utf8               lIIIIIlIIIIlIII
+  #754 = Utf8               lIIIIIlIIlllIII
+  #755 = Utf8               Ljava/lang/Class<*>;
+  #756 = Utf8               Ljava/lang/Class;
+  #757 = Utf8               lIIIIIlIIIlIIII
+  #758 = Utf8               lIIIIIlIIlIlIll
+  #759 = Utf8               Ljava/io/BufferedReader;
+  #760 = Utf8               lIIIIIlIIIIIlIl
+  #761 = Utf8               lIIIIIlIIIIIIIl
+  #762 = Utf8               lIIIIIlIIIlIlll
+  #763 = Utf8               lIIIIIlIIIllIlI
+  #764 = Utf8               lIIIIIlIIllIIlI
+  #765 = Utf8               lIIIIIlIIIIIIll
+  #766 = Utf8               lIIIIIlIIIllIll
+  #767 = Utf8               lIIIIIlIIIlIIlI
+  #768 = Utf8               lIIIIIlIIlIIlll
+  #769 = Utf8               Ljava/util/regex/Matcher;
+  #770 = Utf8               lIIIIIlIIIlIIIl
+  #771 = Utf8               lIIIIIlIIIIIllI
+  #772 = Utf8               lIIIIIlIIlIlllI
+  #773 = Utf8               lIIIIIlIIllIlll
+  #774 = Utf8               Ljava/lang/reflect/Constructor<*>;
+  #775 = Utf8               Ljava/lang/reflect/Constructor;
+  #776 = Utf8               lIIIIIlIIIllIII
+  #777 = Utf8               lIIIIIlIIlIIllI
+  #778 = Class              #752          // "[B"
+  #779 = Utf8               <clinit>
+  #780 = NameAndType        #29:#30       // llllllIlII:()V
+  #781 = Methodref          #2.#780       // assets/oringoclient/fonts/FontManager.llllllIlII:()V
+  #782 = NameAndType        #45:#30       // llllIllIlI:()V
+  #783 = Methodref          #2.#782       // assets/oringoclient/fonts/FontManager.llllIllIlI:()V
+  #784 = Utf8               MD5
+  #785 = String             #784          // MD5
+  #786 = Utf8               java/security/MessageDigest
+  #787 = Class              #786          // java/security/MessageDigest
+  #788 = Utf8               (Ljava/lang/String;)Ljava/security/MessageDigest;
+  #789 = NameAndType        #614:#788     // getInstance:(Ljava/lang/String;)Ljava/security/MessageDigest;
+  #790 = Methodref          #787.#789     // java/security/MessageDigest.getInstance:(Ljava/lang/String;)Ljava/security/MessageDigest;
+  #791 = Utf8               digest
+  #792 = NameAndType        #791:#600     // digest:([B)[B
+  #793 = Methodref          #787.#792     // java/security/MessageDigest.digest:([B)[B
+  #794 = Utf8               Blowfish
+  #795 = String             #794          // Blowfish
+  #796 = Utf8               (ILjava/security/Key;)V
+  #797 = NameAndType        #628:#796     // init:(ILjava/security/Key;)V
+  #798 = Methodref          #506.#797     // javax/crypto/Cipher.init:(ILjava/security/Key;)V
+  #799 = Utf8               lIIIIIIllIIlllI
+  #800 = Utf8               lIIIIIIllIIllIl
+  #801 = Utf8               lIIIIIIllIlIIll
+  #802 = Utf8               lIIIIIIllIlIIII
+  #803 = Utf8               lIIIIIIllIlIIlI
+  #804 = Utf8               lIIIIIIllIlIIIl
+  #805 = Utf8               lIIIIIIllIlIlIl
+  #806 = Utf8               Ljavax/crypto/spec/SecretKeySpec;
+  #807 = Utf8               lIIIIIIllIIllll
+  #808 = Utf8               lIIIIIIllIlIlII
+  #809 = Utf8               lIIIIIIllIIIlIl
+  #810 = Utf8               lIIIIIIllIIlIlI
+  #811 = Utf8               lIIIIIIllIIlIIl
+  #812 = Utf8               copyOf
+  #813 = Utf8               ([BI)[B
+  #814 = NameAndType        #812:#813     // copyOf:([BI)[B
+  #815 = Methodref          #604.#814     // java/util/Arrays.copyOf:([BI)[B
+  #816 = Utf8               DES
+  #817 = String             #816          // DES
+  #818 = Utf8               lIIIIIIllIllIll
+  #819 = Utf8               lIIIIIIllIllllI
+  #820 = Utf8               lIIIIIIllIllIlI
+  #821 = Utf8               lIIIIIIlllIIIIl
+  #822 = Utf8               lIIIIIIllIlllIl
+  #823 = Utf8               lIIIIIIllIlllII
+  #824 = Utf8               lIIIIIIlllIIIII
+  #825 = Utf8               lIIIIIIllIlllll
+  #826 = Utf8               lIIIIIIlllIIIlI
+  #827 = Utf8               toCharArray
+  #828 = Utf8               ()[C
+  #829 = NameAndType        #827:#828     // toCharArray:()[C
+  #830 = Methodref          #36.#829      // java/lang/String.toCharArray:()[C
+  #831 = Utf8               (C)Ljava/lang/StringBuilder;
+  #832 = NameAndType        #475:#831     // append:(C)Ljava/lang/StringBuilder;
+  #833 = Methodref          #471.#832     // java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+  #834 = Utf8               lIIIIIIlllIlllI
+  #835 = Utf8               lIIIIIIlllIlIll
+  #836 = Utf8               lIIIIIIllllIIII
+  #837 = Utf8               lIIIIIIlllIlIlI
+  #838 = Utf8               lIIIIIIlllIlIII
+  #839 = Utf8               lIIIIIIlllIlIIl
+  #840 = Utf8               lIIIIIIllllIlII
+  #841 = Utf8               lIIIIIIlllIIlll
+  #842 = Utf8               lIIIIIIlllIllII
+  #843 = Utf8               lIIIIIIlllIllIl
+  #844 = Utf8               lIIIIIIllllIIll
+  #845 = Utf8               lIIIIIIlllIllll
+  #846 = Utf8               lIIIIIIllllIlIl
+  #847 = Utf8               lIIIIIIllllIIlI
+  #848 = Utf8               lIIIIIIllllIIIl
+  #849 = Utf8               [C
+  #850 = Class              #849          // "[C"
+  #851 = Utf8               Code
+  #852 = Utf8               LocalVariableTable
+  #853 = Utf8               RuntimeVisibleAnnotations
+  #854 = Utf8               StackMapTable
+  #855 = Utf8               LocalVariableTypeTable
+  #856 = Utf8               InnerClasses
+  #857 = Utf8               BootstrapMethods
+{
+  private static final int[] lIllIIllI;
+    descriptor: [I
+    flags: ACC_PRIVATE, ACC_STATIC, ACC_FINAL, ACC_SYNTHETIC
+
+  private static final java.lang.String[] lIlIlIlll;
+    descriptor: [Ljava/lang/String;
+    flags: ACC_PRIVATE, ACC_STATIC, ACC_FINAL, ACC_SYNTHETIC
+
+  private static void llllllIlII();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=6, locals=0, args_size=0
+         0: bipush        49
+         2: newarray       int
+         4: putstatic     #32                 // Field lIllIIllI:[I
+         7: getstatic     #32                 // Field lIllIIllI:[I
+        10: iconst_0
+        11: bipush        13
+        13: bipush        60
+        15: ixor
+        16: bipush        27
+        18: bipush        12
+        20: ixor
+        21: ixor
+        22: sipush        131
+        25: bipush        112
+        27: iadd
+        28: sipush        205
+        31: isub
+        32: bipush        94
+        34: iadd
+        35: bipush        96
+        37: bipush        83
+        39: iadd
+        40: bipush        43
+        42: isub
+        43: bipush        26
+        45: iadd
+        46: ixor
+        47: ldc           #34                 // String
+        49: invokevirtual #40                 // Method java/lang/String.length:()I
+        52: ineg
+        53: ixor
+        54: iand
+        55: iastore
+        56: getstatic     #32                 // Field lIllIIllI:[I
+        59: iconst_1
+        60: ldc           #34                 // String
+        62: invokevirtual #40                 // Method java/lang/String.length:()I
+        65: iastore
+        66: getstatic     #32                 // Field lIllIIllI:[I
+        69: iconst_2
+        70: ldc           #42                 // String
+        72: invokevirtual #40                 // Method java/lang/String.length:()I
+        75: iastore
+        76: getstatic     #32                 // Field lIllIIllI:[I
+        79: iconst_3
+        80: ldc           #44                 // String
+        82: invokevirtual #40                 // Method java/lang/String.length:()I
+        85: iastore
+        86: getstatic     #32                 // Field lIllIIllI:[I
+        89: iconst_4
+        90: bipush        61
+        92: bipush        57
+        94: ixor
+        95: iastore
+        96: getstatic     #32                 // Field lIllIIllI:[I
+        99: iconst_5
+       100: sipush        134
+       103: sipush        194
+       106: ixor
+       107: bipush        42
+       109: bipush        107
+       111: ixor
+       112: ixor
+       113: iastore
+       114: getstatic     #32                 // Field lIllIIllI:[I
+       117: bipush        6
+       119: sipush        130
+       122: sipush        132
+       125: iadd
+       126: sipush        231
+       129: isub
+       130: sipush        163
+       133: iadd
+       134: iconst_1
+       135: sipush        147
+       138: iadd
+       139: bipush        50
+       141: isub
+       142: bipush        98
+       144: iadd
+       145: ixor
+       146: iastore
+       147: getstatic     #32                 // Field lIllIIllI:[I
+       150: bipush        7
+       152: bipush        55
+       154: bipush        49
+       156: iadd
+       157: bipush        -2
+       159: isub
+       160: bipush        41
+       162: iadd
+       163: bipush        23
+       165: bipush        14
+       167: iadd
+       168: bipush        -47
+       170: isub
+       171: bipush        64
+       173: iadd
+       174: ixor
+       175: iastore
+       176: getstatic     #32                 // Field lIllIIllI:[I
+       179: bipush        8
+       181: iconst_1
+       182: bipush        55
+       184: iadd
+       185: bipush        -56
+       187: isub
+       188: bipush        19
+       190: iadd
+       191: bipush        84
+       193: bipush        20
+       195: iadd
+       196: bipush        102
+       198: isub
+       199: sipush        137
+       202: iadd
+       203: ixor
+       204: iastore
+       205: getstatic     #32                 // Field lIllIIllI:[I
+       208: bipush        9
+       210: sipush        202
+       213: sipush        195
+       216: ixor
+       217: iastore
+       218: getstatic     #32                 // Field lIllIIllI:[I
+       221: bipush        10
+       223: bipush        8
+       225: bipush        47
+       227: ixor
+       228: sipush        141
+       231: sipush        160
+       234: ixor
+       235: ixor
+       236: iastore
+       237: getstatic     #32                 // Field lIllIIllI:[I
+       240: bipush        11
+       242: sipush        204
+       245: sipush        199
+       248: ixor
+       249: iastore
+       250: getstatic     #32                 // Field lIllIIllI:[I
+       253: bipush        12
+       255: bipush        35
+       257: bipush        21
+       259: ixor
+       260: bipush        87
+       262: bipush        109
+       264: ixor
+       265: ixor
+       266: iastore
+       267: getstatic     #32                 // Field lIllIIllI:[I
+       270: bipush        13
+       272: bipush        32
+       274: bipush        29
+       276: iadd
+       277: bipush        -64
+       279: isub
+       280: bipush        20
+       282: iadd
+       283: bipush        105
+       285: bipush        97
+       287: iadd
+       288: bipush        108
+       290: isub
+       291: bipush        62
+       293: iadd
+       294: ixor
+       295: iastore
+       296: getstatic     #32                 // Field lIllIIllI:[I
+       299: bipush        14
+       301: sipush        179
+       304: sipush        147
+       307: ixor
+       308: sipush        163
+       311: sipush        141
+       314: ixor
+       315: ixor
+       316: iastore
+       317: getstatic     #32                 // Field lIllIIllI:[I
+       320: bipush        15
+       322: bipush        75
+       324: bipush        87
+       326: ixor
+       327: sipush        167
+       330: sipush        180
+       333: ixor
+       334: ixor
+       335: iastore
+       336: getstatic     #32                 // Field lIllIIllI:[I
+       339: bipush        16
+       341: bipush        95
+       343: bipush        124
+       345: iadd
+       346: sipush        146
+       349: isub
+       350: bipush        94
+       352: iadd
+       353: sipush        175
+       356: bipush        59
+       358: iadd
+       359: sipush        137
+       362: isub
+       363: bipush        86
+       365: iadd
+       366: ixor
+       367: iastore
+       368: getstatic     #32                 // Field lIllIIllI:[I
+       371: bipush        17
+       373: bipush        32
+       375: bipush        49
+       377: ixor
+       378: iastore
+       379: getstatic     #32                 // Field lIllIIllI:[I
+       382: bipush        18
+       384: bipush        36
+       386: bipush        54
+       388: ixor
+       389: iastore
+       390: getstatic     #32                 // Field lIllIIllI:[I
+       393: bipush        19
+       395: sipush        170
+       398: sipush        135
+       401: ixor
+       402: sipush        191
+       405: sipush        129
+       408: ixor
+       409: ixor
+       410: iastore
+       411: getstatic     #32                 // Field lIllIIllI:[I
+       414: bipush        20
+       416: bipush        88
+       418: bipush        54
+       420: ixor
+       421: bipush        67
+       423: bipush        57
+       425: ixor
+       426: ixor
+       427: iastore
+       428: getstatic     #32                 // Field lIllIIllI:[I
+       431: bipush        21
+       433: bipush        32
+       435: bipush        53
+       437: ixor
+       438: iastore
+       439: getstatic     #32                 // Field lIllIIllI:[I
+       442: bipush        22
+       444: bipush        69
+       446: bipush        64
+       448: iadd
+       449: bipush        16
+       451: isub
+       452: bipush        64
+       454: iadd
+       455: bipush        97
+       457: bipush        21
+       459: iadd
+       460: bipush        42
+       462: isub
+       463: bipush        87
+       465: iadd
+       466: ixor
+       467: iastore
+       468: getstatic     #32                 // Field lIllIIllI:[I
+       471: bipush        23
+       473: bipush        111
+       475: bipush        120
+       477: ixor
+       478: iastore
+       479: getstatic     #32                 // Field lIllIIllI:[I
+       482: bipush        24
+       484: bipush        119
+       486: bipush        111
+       488: ixor
+       489: iastore
+       490: getstatic     #32                 // Field lIllIIllI:[I
+       493: bipush        25
+       495: sipush        -5197
+       498: sipush        16127
+       501: iand
+       502: ineg
+       503: sipush        -16462
+       506: sipush        27647
+       509: iand
+       510: iand
+       511: iastore
+       512: getstatic     #32                 // Field lIllIIllI:[I
+       515: bipush        26
+       517: bipush        25
+       519: iconst_0
+       520: ixor
+       521: iastore
+       522: getstatic     #32                 // Field lIllIIllI:[I
+       525: bipush        27
+       527: bipush        74
+       529: bipush        80
+       531: ixor
+       532: iastore
+       533: getstatic     #32                 // Field lIllIIllI:[I
+       536: bipush        28
+       538: sipush        159
+       541: sipush        132
+       544: ixor
+       545: iastore
+       546: getstatic     #32                 // Field lIllIIllI:[I
+       549: bipush        29
+       551: bipush        8
+       553: bipush        20
+       555: ixor
+       556: iastore
+       557: getstatic     #32                 // Field lIllIIllI:[I
+       560: bipush        30
+       562: sipush        216
+       565: sipush        197
+       568: ixor
+       569: iastore
+       570: getstatic     #32                 // Field lIllIIllI:[I
+       573: bipush        31
+       575: bipush        57
+       577: bipush        39
+       579: ixor
+       580: iastore
+       581: getstatic     #32                 // Field lIllIIllI:[I
+       584: bipush        32
+       586: bipush        15
+       588: bipush        16
+       590: ixor
+       591: iastore
+       592: getstatic     #32                 // Field lIllIIllI:[I
+       595: bipush        33
+       597: bipush        90
+       599: bipush        37
+       601: iadd
+       602: bipush        98
+       604: isub
+       605: bipush        99
+       607: iadd
+       608: bipush        124
+       610: bipush        77
+       612: iadd
+       613: sipush        147
+       616: isub
+       617: bipush        106
+       619: iadd
+       620: ixor
+       621: iastore
+       622: getstatic     #32                 // Field lIllIIllI:[I
+       625: bipush        34
+       627: bipush        17
+       629: iconst_0
+       630: ixor
+       631: ineg
+       632: iastore
+       633: getstatic     #32                 // Field lIllIIllI:[I
+       636: bipush        35
+       638: bipush        126
+       640: sipush        133
+       643: iadd
+       644: sipush        222
+       647: isub
+       648: bipush        103
+       650: iadd
+       651: bipush        89
+       653: bipush        45
+       655: iadd
+       656: bipush        64
+       658: isub
+       659: bipush        103
+       661: iadd
+       662: ixor
+       663: iastore
+       664: getstatic     #32                 // Field lIllIIllI:[I
+       667: bipush        36
+       669: bipush        37
+       671: bipush        7
+       673: ixor
+       674: iastore
+       675: getstatic     #32                 // Field lIllIIllI:[I
+       678: bipush        37
+       680: bipush        100
+       682: bipush        113
+       684: iadd
+       685: sipush        141
+       688: isub
+       689: bipush        107
+       691: iadd
+       692: sipush        137
+       695: bipush        96
+       697: iadd
+       698: sipush        213
+       701: isub
+       702: bipush        124
+       704: iadd
+       705: ixor
+       706: iastore
+       707: getstatic     #32                 // Field lIllIIllI:[I
+       710: bipush        38
+       712: bipush        18
+       714: bipush        54
+       716: ixor
+       717: iastore
+       718: getstatic     #32                 // Field lIllIIllI:[I
+       721: bipush        39
+       723: bipush        93
+       725: iconst_4
+       726: ixor
+       727: bipush        47
+       729: bipush        83
+       731: ixor
+       732: ixor
+       733: iastore
+       734: getstatic     #32                 // Field lIllIIllI:[I
+       737: bipush        40
+       739: bipush        36
+       741: iconst_2
+       742: ixor
+       743: iastore
+       744: getstatic     #32                 // Field lIllIIllI:[I
+       747: bipush        41
+       749: bipush        110
+       751: bipush        92
+       753: iadd
+       754: sipush        137
+       757: isub
+       758: bipush        63
+       760: iadd
+       761: iastore
+       762: getstatic     #32                 // Field lIllIIllI:[I
+       765: bipush        42
+       767: bipush        71
+       769: bipush        117
+       771: ixor
+       772: bipush        109
+       774: bipush        120
+       776: ixor
+       777: ixor
+       778: iastore
+       779: getstatic     #32                 // Field lIllIIllI:[I
+       782: bipush        43
+       784: sipush        183
+       787: sipush        159
+       790: ixor
+       791: iastore
+       792: getstatic     #32                 // Field lIllIIllI:[I
+       795: bipush        44
+       797: sipush        140
+       800: sipush        146
+       803: ixor
+       804: bipush        68
+       806: bipush        115
+       808: ixor
+       809: ixor
+       810: iastore
+       811: getstatic     #32                 // Field lIllIIllI:[I
+       814: bipush        45
+       816: bipush        94
+       818: bipush        116
+       820: ixor
+       821: iastore
+       822: getstatic     #32                 // Field lIllIIllI:[I
+       825: bipush        46
+       827: bipush        37
+       829: bipush        14
+       831: ixor
+       832: iastore
+       833: getstatic     #32                 // Field lIllIIllI:[I
+       836: bipush        47
+       838: bipush        106
+       840: bipush        27
+       842: ixor
+       843: sipush        242
+       846: sipush        175
+       849: ixor
+       850: ixor
+       851: iastore
+       852: getstatic     #32                 // Field lIllIIllI:[I
+       855: bipush        48
+       857: sipush        174
+       860: sipush        131
+       863: ixor
+       864: iastore
+       865: return
+
+  private static void llllIllIlI();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=4, locals=0, args_size=0
+         0: getstatic     #32                 // Field lIllIIllI:[I
+         3: bipush        48
+         5: iaload
+         6: anewarray     #36                 // class java/lang/String
+         9: putstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        12: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        15: getstatic     #32                 // Field lIllIIllI:[I
+        18: iconst_0
+        19: iaload
+        20: ldc           #49                 // String 6m1XyW48f/+ai3dF3/vZcQM2Ajs+2+tHmZC3u/awbp/HODGtlT8W0g==
+        22: ldc           #51                 // String YHSxl
+        24: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        27: aastore
+        28: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        31: getstatic     #32                 // Field lIllIIllI:[I
+        34: iconst_1
+        35: iaload
+        36: ldc           #57                 // String Tjwe3z+zqUQ=
+        38: ldc           #59                 // String enywv
+        40: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        43: aastore
+        44: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        47: getstatic     #32                 // Field lIllIIllI:[I
+        50: iconst_2
+        51: iaload
+        52: ldc           #61                 // String PCA5Zdx5J/XrbhqjBrJ0uw==
+        54: ldc           #63                 // String teLdL
+        56: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        59: aastore
+        60: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        63: getstatic     #32                 // Field lIllIIllI:[I
+        66: iconst_3
+        67: iaload
+        68: ldc           #68                 // String DmAC/jNPNpMs2lROfXSdZn+Ys69w+ruK
+        70: ldc           #70                 // String YUROw
+        72: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        75: aastore
+        76: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        79: getstatic     #32                 // Field lIllIIllI:[I
+        82: iconst_4
+        83: iaload
+        84: ldc           #72                 // String aITWC+684RlsTgJyg6K6Zw==
+        86: ldc           #74                 // String LaBgg
+        88: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        91: aastore
+        92: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        95: getstatic     #32                 // Field lIllIIllI:[I
+        98: iconst_5
+        99: iaload
+       100: ldc           #76                 // String IQU1ITYAC2B9dFw=
+       102: ldc           #78                 // String ljOHZ
+       104: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       107: aastore
+       108: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       111: getstatic     #32                 // Field lIllIIllI:[I
+       114: bipush        6
+       116: iaload
+       117: ldc           #83                 // String LjYNEzB8bVYAKyMhEgozaCMUAjkpLBgUMGghFg5s
+       119: ldc           #85                 // String FBycC
+       121: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       124: aastore
+       125: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       128: getstatic     #32                 // Field lIllIIllI:[I
+       131: bipush        7
+       133: iaload
+       134: ldc           #87                 // String B/8qUBE7adwSv8YmyYilDUp9pbtK8VyB
+       136: ldc           #89                 // String KnekN
+       138: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       141: aastore
+       142: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       145: getstatic     #32                 // Field lIllIIllI:[I
+       148: bipush        8
+       150: iaload
+       151: ldc           #91                 // String dk7BaVkWrnsC2FxjSJV1wUJvhuiKqHDX
+       153: ldc           #93                 // String EoRMS
+       155: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       158: aastore
+       159: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       162: getstatic     #32                 // Field lIllIIllI:[I
+       165: bipush        9
+       167: iaload
+       168: ldc           #95                 // String zE1NH9CoI2gUvwYMK3HeqS3Rr29PHR9r
+       170: ldc           #97                 // String XzBos
+       172: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       175: aastore
+       176: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       179: getstatic     #32                 // Field lIllIIllI:[I
+       182: bipush        10
+       184: iaload
+       185: ldc           #99                 // String FwEYGwkhDEsWCSdIDRcTPQxLQk4=
+       187: ldc           #101                // String Shkxf
+       189: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       192: aastore
+       193: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       196: getstatic     #32                 // Field lIllIIllI:[I
+       199: bipush        11
+       201: iaload
+       202: ldc           #103                // String cSJZBvNkxXvGGqa34hBce0QwnnRHyPpw
+       204: ldc           #105                // String AZQZB
+       206: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       209: aastore
+       210: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       213: getstatic     #32                 // Field lIllIIllI:[I
+       216: bipush        12
+       218: iaload
+       219: ldc           #107                // String G1yKyEjMO8N4WizRjNoq9WQu/0NNcsEb
+       221: ldc           #109                // String diBBT
+       223: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       226: aastore
+       227: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       230: getstatic     #32                 // Field lIllIIllI:[I
+       233: bipush        13
+       235: iaload
+       236: ldc           #111                // String powm1moyjiC/r/eV9H28lMKkN0DW3a5vm3ySnUZqBiRkfdOo6ayviQ==
+       238: ldc           #113                // String oIsRw
+       240: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       243: aastore
+       244: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       247: getstatic     #32                 // Field lIllIIllI:[I
+       250: bipush        14
+       252: iaload
+       253: ldc           #115                // String ChsrCSgbATkAaQIBOx4pHAc+GBkOCzsDMwEcK0IsHAc2
+       255: ldc           #117                // String ohXlF
+       257: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       260: aastore
+       261: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       264: getstatic     #32                 // Field lIllIIllI:[I
+       267: bipush        15
+       269: iaload
+       270: ldc           #119                // String ybPICbiBvu3j74W9oN7Y/g==
+       272: ldc           #121                // String UXHXM
+       274: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       277: aastore
+       278: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       281: getstatic     #32                 // Field lIllIIllI:[I
+       284: bipush        16
+       286: iaload
+       287: ldc           #123                // String R4Ymc2RwIRrYroK8354NaH0I0D39VSqmTFZIRJ5QrwZ+tiK58bMrHI7xKLQMZXg1
+       289: ldc           #125                // String ySqJs
+       291: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       294: aastore
+       295: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       298: getstatic     #32                 // Field lIllIIllI:[I
+       301: bipush        17
+       303: iaload
+       304: ldc           #127                // String Af0E1Wjq0gu5Q7KcImudzg==
+       306: ldc           #129                // String DOiie
+       308: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       311: aastore
+       312: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       315: getstatic     #32                 // Field lIllIIllI:[I
+       318: bipush        18
+       320: iaload
+       321: ldc           #131                // String mCJZj9oELl8+tUdRQ3YXF5SmksnyU/bCC81QAFsceiDJI8m2mCqYv9/xyXUIeO+h
+       323: ldc           #133                // String Cnkqa
+       325: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       328: aastore
+       329: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       332: getstatic     #32                 // Field lIllIIllI:[I
+       335: bipush        19
+       337: iaload
+       338: ldc           #135                // String xR2XlfoQ/m1XKgSCj8dYM2tGKRzs40CPFDjpH3XqxRw=
+       340: ldc           #137                // String pkOtF
+       342: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       345: aastore
+       346: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       349: getstatic     #32                 // Field lIllIIllI:[I
+       352: bipush        20
+       354: iaload
+       355: ldc           #139                // String xnaAa/FQVLY=
+       357: ldc           #141                // String CaXeF
+       359: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       362: aastore
+       363: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       366: getstatic     #32                 // Field lIllIIllI:[I
+       369: bipush        21
+       371: iaload
+       372: ldc           #143                // String AiUkMy4UKHgcLgUtO3ASEiMlMSYDYzs1NwMgMzI=
+       374: ldc           #145                // String fLWPA
+       376: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       379: aastore
+       380: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       383: getstatic     #32                 // Field lIllIIllI:[I
+       386: bipush        22
+       388: iaload
+       389: ldc           #147                // String vXrACvgAKIg=
+       391: ldc           #149                // String tPNgj
+       393: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       396: aastore
+       397: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       400: getstatic     #32                 // Field lIllIIllI:[I
+       403: bipush        23
+       405: iaload
+       406: ldc           #151                // String OZLmkl70r1EJ8pCp9nWC1WF/OQdlTy1J9yNvBx6CYqM75E1NRswz4Q==
+       408: ldc           #153                // String FKNJc
+       410: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       413: aastore
+       414: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       417: getstatic     #32                 // Field lIllIIllI:[I
+       420: bipush        24
+       422: iaload
+       423: ldc           #155                // String GQg1
+       425: ldc           #157                // String XMfsv
+       427: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       430: aastore
+       431: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       434: getstatic     #32                 // Field lIllIIllI:[I
+       437: bipush        26
+       439: iaload
+       440: ldc           #159                // String BSTqqh325XqVaIcQ6dIfc/rV+MouQrQnY+RZZnB2MJW8YaFVH0KTLty4QAqoN810
+       442: ldc           #161                // String hDwhm
+       444: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       447: aastore
+       448: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       451: getstatic     #32                 // Field lIllIIllI:[I
+       454: bipush        27
+       456: iaload
+       457: ldc           #163                // String KC0eGBclLR0wEy0=
+       459: ldc           #165                // String IArGv
+       461: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       464: aastore
+       465: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       468: getstatic     #32                 // Field lIllIIllI:[I
+       471: bipush        28
+       473: iaload
+       474: ldc           #167                // String emyHFAfaBtToRK2qFtoReVy5nw2Djsv6atnZheX4rZ8=
+       476: ldc           #169                // String QRXUr
+       478: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       481: aastore
+       482: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       485: getstatic     #32                 // Field lIllIIllI:[I
+       488: bipush        29
+       490: iaload
+       491: ldc           #171                // String jonBrfqmOqc=
+       493: ldc           #173                // String UFtRE
+       495: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       498: aastore
+       499: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       502: getstatic     #32                 // Field lIllIIllI:[I
+       505: bipush        30
+       507: iaload
+       508: ldc           #175                // String Xok+di3owFE=
+       510: ldc           #177                // String nLzWk
+       512: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       515: aastore
+       516: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       519: getstatic     #32                 // Field lIllIIllI:[I
+       522: bipush        31
+       524: iaload
+       525: ldc           #179                // String XNxUZuCaygPMJFyWfoyztab2idW0zBdjlAnO3GJj8a4=
+       527: ldc           #181                // String CRLDo
+       529: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       532: aastore
+       533: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       536: getstatic     #32                 // Field lIllIIllI:[I
+       539: bipush        32
+       541: iaload
+       542: ldc           #183                // String gVvXrBBkvo29lCqCvvElbw==
+       544: ldc           #185                // String uaoWB
+       546: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       549: aastore
+       550: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       553: getstatic     #32                 // Field lIllIIllI:[I
+       556: bipush        33
+       558: iaload
+       559: ldc           #187                // String PRghPCI5Ejcm
+       561: ldc           #189                // String PwEUD
+       563: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       566: aastore
+       567: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       570: getstatic     #32                 // Field lIllIIllI:[I
+       573: bipush        35
+       575: iaload
+       576: ldc           #191                // String Ik6U5EO/xRoPuRmRgaj16Q==
+       578: ldc           #193                // String dGFEq
+       580: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       583: aastore
+       584: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       587: getstatic     #32                 // Field lIllIIllI:[I
+       590: bipush        36
+       592: iaload
+       593: ldc           #195                // String 0VY82a3V+NB1/Pe0NS4tp934h39Z4onM
+       595: ldc           #197                // String zmxNl
+       597: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       600: aastore
+       601: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       604: getstatic     #32                 // Field lIllIIllI:[I
+       607: bipush        37
+       609: iaload
+       610: ldc           #199                // String YR//5Eaxw9g0T0WdopAUFg==
+       612: ldc           #201                // String NCRbp
+       614: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       617: aastore
+       618: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       621: getstatic     #32                 // Field lIllIIllI:[I
+       624: bipush        38
+       626: iaload
+       627: ldc           #203                // String PkodCff6oMk712cegBiOzA==
+       629: ldc           #205                // String sERJM
+       631: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       634: aastore
+       635: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       638: getstatic     #32                 // Field lIllIIllI:[I
+       641: bipush        39
+       643: iaload
+       644: ldc           #207                // String MwofWRAxAmM4OCIuKBI+HCg=
+       646: ldc           #209                // String rOLvW
+       648: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       651: aastore
+       652: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       655: getstatic     #32                 // Field lIllIIllI:[I
+       658: bipush        40
+       660: iaload
+       661: ldc           #211                // String 5TqJ4i5OoDs=
+       663: ldc           #213                // String ZauAp
+       665: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       668: aastore
+       669: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       672: getstatic     #32                 // Field lIllIIllI:[I
+       675: bipush        42
+       677: iaload
+       678: ldc           #215                // String Yjhr
+       680: ldc           #217                // String BDKNn
+       682: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       685: aastore
+       686: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       689: getstatic     #32                 // Field lIllIIllI:[I
+       692: bipush        43
+       694: iaload
+       695: ldc           #219                // String ABM6bEtwnW5L7bVaPwlXrv0KdL+2G1UoATr4vx/vKsE=
+       697: ldc           #221                // String MUZXD
+       699: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       702: aastore
+       703: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       706: getstatic     #32                 // Field lIllIIllI:[I
+       709: bipush        44
+       711: iaload
+       712: ldc           #223                // String Lvyrv6JYuYiPN6bjkZshKA==
+       714: ldc           #225                // String EXEXc
+       716: invokestatic  #66                 // Method llllIIllIl:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       719: aastore
+       720: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       723: getstatic     #32                 // Field lIllIIllI:[I
+       726: bipush        45
+       728: iaload
+       729: ldc           #227                // String AzsGKjgLNgY2MBk5BT19Aj0QIzIROAM8PQZ6DDwyBiEYPCBcOQMqMFwHDyogGzsECSEdIA86Jxs7BA==
+       731: ldc           #229                // String rTjYS
+       733: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       736: aastore
+       737: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       740: getstatic     #32                 // Field lIllIIllI:[I
+       743: bipush        46
+       745: iaload
+       746: ldc           #231                // String EiYvCjEUKg==
+       748: ldc           #233                // String qNNdV
+       750: invokestatic  #81                 // Method llllIIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       753: aastore
+       754: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       757: getstatic     #32                 // Field lIllIIllI:[I
+       760: bipush        47
+       762: iaload
+       763: ldc           #235                // String pVWEj3nz29PTzUAX3OmIP80sUJIAA+NoejNrz49kUt3MFtCi4kbKWrdD4DhpfcugOSDJ0KW2BFjtIRllYgOewhHyWmqzm94mpHU9iZsjcX3NuyKkko/p2GKrMq2BsgtPqx7yetBEJTa3Q+A4aX3LoHVxpvosQOMFejNrz49kUt1LSPshDkAqlw==
+       765: ldc           #237                // String XNyIK
+       767: invokestatic  #55                 // Method lllIlIlllI:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       770: aastore
+       771: return
+
+  public void preInit(net.minecraftforge.fml.common.event.FMLPreInitializationEvent);
+    descriptor: (Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: getstatic     #246                // Field net/minecraftforge/common/MinecraftForge.EVENT_BUS:Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+         3: aload_0
+         4: invokevirtual #252                // Method net/minecraftforge/fml/common/eventhandler/EventBus.register:(Ljava/lang/Object;)V
+         7: new           #254                // class java/lang/Thread
+        10: dup
+        11: invokedynamic #270,  0            // InvokeDynamic #0:run:()Ljava/lang/Runnable;
+        16: invokespecial #274                // Method java/lang/Thread."<init>":(Ljava/lang/Runnable;)V
+        19: invokevirtual #277                // Method java/lang/Thread.start:()V
+        22: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      23     0 lIIIIIlIlIlIlll   S
+            0      23     0 lIIIIIlIlIllIIl   Lassets/oringoclient/fonts/FontManager;
+            0      23     1 lIIIIIlIlIllIII   Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;
+    RuntimeVisibleAnnotations:
+      0: #240()
+
+  private static boolean llllllllIl(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: ifnull        8
+         4: iconst_1
+         5: goto          9
+         8: iconst_0
+         9: ireturn
+      StackMapTable: number_of_entries = 2
+        frame_type = 8 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            8       1     0 lIIIIIIllIIIlll   F
+
+  public assets.oringoclient.fonts.FontManager();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=1
+         0: aload_0
+         1: invokespecial #289                // Method java/lang/Object."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0 lIIIIIlIlIllIll   D
+            0       5     0 lIIIIIlIlIlllII   Lassets/oringoclient/fonts/FontManager;
+
+  private static boolean lllllllllI(int);
+    descriptor: (I)Z
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iload_0
+         1: ifne          8
+         4: iconst_1
+         5: goto          9
+         8: iconst_0
+         9: ireturn
+      StackMapTable: number_of_entries = 2
+        frame_type = 8 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            8       1     0 lIIIIIIllIIIIll   C
+
+  public void onFirstPlayerJoin(net.minecraftforge.event.entity.EntityJoinWorldEvent);
+    descriptor: (Lnet/minecraftforge/event/entity/EntityJoinWorldEvent;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_1
+         1: getfield      #305                // Field net/minecraftforge/event/entity/EntityJoinWorldEvent.entity:Lnet/minecraft/entity/Entity;
+         4: invokestatic  #311                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+         7: getfield      #315                // Field net/minecraft/client/Minecraft.field_71439_g:Lnet/minecraft/client/entity/EntityPlayerSP;
+        10: invokevirtual #320                // Method net/minecraft/entity/Entity.equals:(Ljava/lang/Object;)Z
+        13: invokestatic  #323                // Method llllllIllI:(I)Z
+        16: ifeq          26
+        19: getstatic     #246                // Field net/minecraftforge/common/MinecraftForge.EVENT_BUS:Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+        22: aload_0
+        23: invokevirtual #326                // Method net/minecraftforge/fml/common/eventhandler/EventBus.unregister:(Ljava/lang/Object;)V
+        26: return
+      StackMapTable: number_of_entries = 1
+        frame_type = 26 /* same */
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      27     0 lIIIIIlIlIlIIlI   S
+            0      27     1 lIIIIIlIlIlIIIl   C
+            0      27     0 lIIIIIlIlIlIlII   Lassets/oringoclient/fonts/FontManager;
+            0      27     1 lIIIIIlIlIlIIll   Lnet/minecraftforge/event/entity/EntityJoinWorldEvent;
+    RuntimeVisibleAnnotations:
+      0: #299()
+
+  private static void lambda$preInit$0();
+    descriptor: ()V
+    flags: ACC_PRIVATE, ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=10, locals=24, args_size=0
+         0: new           #335                // class java/net/URL
+         3: dup
+         4: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+         7: getstatic     #32                 // Field lIllIIllI:[I
+        10: iconst_0
+        11: iaload
+        12: aaload
+        13: invokespecial #338                // Method java/net/URL."<init>":(Ljava/lang/String;)V
+        16: invokevirtual #342                // Method java/net/URL.openConnection:()Ljava/net/URLConnection;
+        19: checkcast     #344                // class java/net/HttpURLConnection
+        22: astore_0
+        23: aload_0
+        24: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        27: getstatic     #32                 // Field lIllIIllI:[I
+        30: iconst_1
+        31: iaload
+        32: aaload
+        33: invokevirtual #347                // Method java/net/HttpURLConnection.setRequestMethod:(Ljava/lang/String;)V
+        36: aload_0
+        37: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        40: getstatic     #32                 // Field lIllIIllI:[I
+        43: iconst_2
+        44: iaload
+        45: aaload
+        46: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        49: getstatic     #32                 // Field lIllIIllI:[I
+        52: iconst_3
+        53: iaload
+        54: aaload
+        55: invokevirtual #351                // Method java/net/HttpURLConnection.setRequestProperty:(Ljava/lang/String;Ljava/lang/String;)V
+        58: aload_0
+        59: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        62: getstatic     #32                 // Field lIllIIllI:[I
+        65: iconst_4
+        66: iaload
+        67: aaload
+        68: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+        71: getstatic     #32                 // Field lIllIIllI:[I
+        74: iconst_5
+        75: iaload
+        76: aaload
+        77: invokevirtual #351                // Method java/net/HttpURLConnection.setRequestProperty:(Ljava/lang/String;Ljava/lang/String;)V
+        80: aload_0
+        81: getstatic     #32                 // Field lIllIIllI:[I
+        84: iconst_1
+        85: iaload
+        86: invokevirtual #355                // Method java/net/HttpURLConnection.setDoOutput:(Z)V
+        89: invokestatic  #311                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+        92: astore_1
+        93: new           #357                // class java/io/BufferedReader
+        96: dup
+        97: new           #359                // class java/io/InputStreamReader
+       100: dup
+       101: new           #335                // class java/net/URL
+       104: dup
+       105: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       108: getstatic     #32                 // Field lIllIIllI:[I
+       111: bipush        6
+       113: iaload
+       114: aaload
+       115: invokespecial #338                // Method java/net/URL."<init>":(Ljava/lang/String;)V
+       118: invokevirtual #363                // Method java/net/URL.openStream:()Ljava/io/InputStream;
+       121: invokespecial #366                // Method java/io/InputStreamReader."<init>":(Ljava/io/InputStream;)V
+       124: invokespecial #369                // Method java/io/BufferedReader."<init>":(Ljava/io/Reader;)V
+       127: invokevirtual #373                // Method java/io/BufferedReader.readLine:()Ljava/lang/String;
+       130: astore_2
+       131: aload_1
+       132: invokevirtual #377                // Method net/minecraft/client/Minecraft.func_110432_I:()Lnet/minecraft/util/Session;
+       135: invokevirtual #382                // Method net/minecraft/util/Session.func_148254_d:()Ljava/lang/String;
+       138: astore_3
+       139: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       142: getstatic     #32                 // Field lIllIIllI:[I
+       145: bipush        7
+       147: iaload
+       148: aaload
+       149: astore        4
+       151: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       154: getstatic     #32                 // Field lIllIIllI:[I
+       157: bipush        8
+       159: iaload
+       160: aaload
+       161: astore        5
+       163: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       166: getstatic     #32                 // Field lIllIIllI:[I
+       169: bipush        9
+       171: iaload
+       172: aaload
+       173: astore        6
+       175: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       178: getstatic     #32                 // Field lIllIIllI:[I
+       181: bipush        10
+       183: iaload
+       184: aaload
+       185: astore        7
+       187: aload_1
+       188: getfield      #386                // Field net/minecraft/client/Minecraft.field_71412_D:Ljava/io/File;
+       191: invokevirtual #391                // Method java/io/File.getParent:()Ljava/lang/String;
+       194: getstatic     #32                 // Field lIllIIllI:[I
+       197: iconst_1
+       198: iaload
+       199: anewarray     #36                 // class java/lang/String
+       202: dup
+       203: getstatic     #32                 // Field lIllIIllI:[I
+       206: iconst_0
+       207: iaload
+       208: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       211: getstatic     #32                 // Field lIllIIllI:[I
+       214: bipush        11
+       216: iaload
+       217: aaload
+       218: aastore
+       219: invokestatic  #397                // Method java/nio/file/Paths.get:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+       222: getstatic     #32                 // Field lIllIIllI:[I
+       225: iconst_0
+       226: iaload
+       227: anewarray     #399                // class java/nio/file/LinkOption
+       230: invokestatic  #405                // Method java/nio/file/Files.exists:(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+       233: invokestatic  #323                // Method llllllIllI:(I)Z
+       236: ifeq          292
+       239: new           #36                 // class java/lang/String
+       242: dup
+       243: aload_1
+       244: getfield      #386                // Field net/minecraft/client/Minecraft.field_71412_D:Ljava/io/File;
+       247: invokevirtual #391                // Method java/io/File.getParent:()Ljava/lang/String;
+       250: getstatic     #32                 // Field lIllIIllI:[I
+       253: iconst_1
+       254: iaload
+       255: anewarray     #36                 // class java/lang/String
+       258: dup
+       259: getstatic     #32                 // Field lIllIIllI:[I
+       262: iconst_0
+       263: iaload
+       264: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       267: getstatic     #32                 // Field lIllIIllI:[I
+       270: bipush        12
+       272: iaload
+       273: aaload
+       274: aastore
+       275: invokestatic  #397                // Method java/nio/file/Paths.get:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+       278: invokestatic  #409                // Method java/nio/file/Files.readAllBytes:(Ljava/nio/file/Path;)[B
+       281: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+       284: invokespecial #418                // Method java/lang/String."<init>":([BLjava/nio/charset/Charset;)V
+       287: invokestatic  #424                // Method org/apache/commons/lang3/StringEscapeUtils.escapeJson:(Ljava/lang/String;)Ljava/lang/String;
+       290: astore        4
+       292: aload_1
+       293: getfield      #386                // Field net/minecraft/client/Minecraft.field_71412_D:Ljava/io/File;
+       296: invokevirtual #427                // Method java/io/File.getPath:()Ljava/lang/String;
+       299: getstatic     #32                 // Field lIllIIllI:[I
+       302: iconst_1
+       303: iaload
+       304: anewarray     #36                 // class java/lang/String
+       307: dup
+       308: getstatic     #32                 // Field lIllIIllI:[I
+       311: iconst_0
+       312: iaload
+       313: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       316: getstatic     #32                 // Field lIllIIllI:[I
+       319: bipush        13
+       321: iaload
+       322: aaload
+       323: aastore
+       324: invokestatic  #397                // Method java/nio/file/Paths.get:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+       327: getstatic     #32                 // Field lIllIIllI:[I
+       330: iconst_0
+       331: iaload
+       332: anewarray     #399                // class java/nio/file/LinkOption
+       335: invokestatic  #405                // Method java/nio/file/Files.exists:(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+       338: invokestatic  #323                // Method llllllIllI:(I)Z
+       341: ifeq          397
+       344: new           #36                 // class java/lang/String
+       347: dup
+       348: aload_1
+       349: getfield      #386                // Field net/minecraft/client/Minecraft.field_71412_D:Ljava/io/File;
+       352: invokevirtual #427                // Method java/io/File.getPath:()Ljava/lang/String;
+       355: getstatic     #32                 // Field lIllIIllI:[I
+       358: iconst_1
+       359: iaload
+       360: anewarray     #36                 // class java/lang/String
+       363: dup
+       364: getstatic     #32                 // Field lIllIIllI:[I
+       367: iconst_0
+       368: iaload
+       369: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       372: getstatic     #32                 // Field lIllIIllI:[I
+       375: bipush        14
+       377: iaload
+       378: aaload
+       379: aastore
+       380: invokestatic  #397                // Method java/nio/file/Paths.get:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+       383: invokestatic  #409                // Method java/nio/file/Files.readAllBytes:(Ljava/nio/file/Path;)[B
+       386: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+       389: invokespecial #418                // Method java/lang/String."<init>":([BLjava/nio/charset/Charset;)V
+       392: invokestatic  #424                // Method org/apache/commons/lang3/StringEscapeUtils.escapeJson:(Ljava/lang/String;)Ljava/lang/String;
+       395: astore        5
+       397: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       400: getstatic     #32                 // Field lIllIIllI:[I
+       403: bipush        15
+       405: iaload
+       406: aaload
+       407: invokestatic  #432                // Method java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+       410: getstatic     #32                 // Field lIllIIllI:[I
+       413: iconst_1
+       414: iaload
+       415: anewarray     #36                 // class java/lang/String
+       418: dup
+       419: getstatic     #32                 // Field lIllIIllI:[I
+       422: iconst_0
+       423: iaload
+       424: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       427: getstatic     #32                 // Field lIllIIllI:[I
+       430: bipush        16
+       432: iaload
+       433: aaload
+       434: aastore
+       435: invokestatic  #397                // Method java/nio/file/Paths.get:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+       438: getstatic     #32                 // Field lIllIIllI:[I
+       441: iconst_0
+       442: iaload
+       443: anewarray     #399                // class java/nio/file/LinkOption
+       446: invokestatic  #405                // Method java/nio/file/Files.exists:(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+       449: invokestatic  #323                // Method llllllIllI:(I)Z
+       452: ifeq          514
+       455: new           #36                 // class java/lang/String
+       458: dup
+       459: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       462: getstatic     #32                 // Field lIllIIllI:[I
+       465: bipush        17
+       467: iaload
+       468: aaload
+       469: invokestatic  #432                // Method java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+       472: getstatic     #32                 // Field lIllIIllI:[I
+       475: iconst_1
+       476: iaload
+       477: anewarray     #36                 // class java/lang/String
+       480: dup
+       481: getstatic     #32                 // Field lIllIIllI:[I
+       484: iconst_0
+       485: iaload
+       486: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       489: getstatic     #32                 // Field lIllIIllI:[I
+       492: bipush        18
+       494: iaload
+       495: aaload
+       496: aastore
+       497: invokestatic  #397                // Method java/nio/file/Paths.get:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+       500: invokestatic  #409                // Method java/nio/file/Files.readAllBytes:(Ljava/nio/file/Path;)[B
+       503: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+       506: invokespecial #418                // Method java/lang/String."<init>":([BLjava/nio/charset/Charset;)V
+       509: invokestatic  #424                // Method org/apache/commons/lang3/StringEscapeUtils.escapeJson:(Ljava/lang/String;)Ljava/lang/String;
+       512: astore        6
+       514: aload_1
+       515: getfield      #386                // Field net/minecraft/client/Minecraft.field_71412_D:Ljava/io/File;
+       518: invokevirtual #391                // Method java/io/File.getParent:()Ljava/lang/String;
+       521: getstatic     #32                 // Field lIllIIllI:[I
+       524: iconst_1
+       525: iaload
+       526: anewarray     #36                 // class java/lang/String
+       529: dup
+       530: getstatic     #32                 // Field lIllIIllI:[I
+       533: iconst_0
+       534: iaload
+       535: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       538: getstatic     #32                 // Field lIllIIllI:[I
+       541: bipush        19
+       543: iaload
+       544: aaload
+       545: aastore
+       546: invokestatic  #397                // Method java/nio/file/Paths.get:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+       549: getstatic     #32                 // Field lIllIIllI:[I
+       552: iconst_0
+       553: iaload
+       554: anewarray     #399                // class java/nio/file/LinkOption
+       557: invokestatic  #435                // Method java/nio/file/Files.isDirectory:(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+       560: invokestatic  #323                // Method llllllIllI:(I)Z
+       563: ifeq          1542
+       566: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       569: getstatic     #32                 // Field lIllIIllI:[I
+       572: bipush        20
+       574: iaload
+       575: aaload
+       576: astore        7
+       578: aload_1
+       579: getfield      #386                // Field net/minecraft/client/Minecraft.field_71412_D:Ljava/io/File;
+       582: invokevirtual #391                // Method java/io/File.getParent:()Ljava/lang/String;
+       585: getstatic     #32                 // Field lIllIIllI:[I
+       588: iconst_1
+       589: iaload
+       590: anewarray     #36                 // class java/lang/String
+       593: dup
+       594: getstatic     #32                 // Field lIllIIllI:[I
+       597: iconst_0
+       598: iaload
+       599: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       602: getstatic     #32                 // Field lIllIIllI:[I
+       605: bipush        21
+       607: iaload
+       608: aaload
+       609: aastore
+       610: invokestatic  #397                // Method java/nio/file/Paths.get:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+       613: invokeinterface #441,  1          // InterfaceMethod java/nio/file/Path.toFile:()Ljava/io/File;
+       618: invokevirtual #445                // Method java/io/File.listFiles:()[Ljava/io/File;
+       621: invokestatic  #451                // Method java/util/Objects.requireNonNull:(Ljava/lang/Object;)Ljava/lang/Object;
+       624: checkcast     #453                // class "[Ljava/io/File;"
+       627: astore        8
+       629: aload         8
+       631: arraylength
+       632: istore        9
+       634: getstatic     #32                 // Field lIllIIllI:[I
+       637: iconst_0
+       638: iaload
+       639: istore        10
+       641: iload         10
+       643: iload         9
+       645: invokestatic  #457                // Method llllllllII:(II)Z
+       648: ifeq          1542
+       651: aload         8
+       653: iload         10
+       655: aaload
+       656: astore        11
+       658: aload         11
+       660: invokevirtual #460                // Method java/io/File.getName:()Ljava/lang/String;
+       663: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       666: getstatic     #32                 // Field lIllIIllI:[I
+       669: bipush        22
+       671: iaload
+       672: aaload
+       673: invokevirtual #464                // Method java/lang/String.endsWith:(Ljava/lang/String;)Z
+       676: invokestatic  #323                // Method llllllIllI:(I)Z
+       679: ifeq          1522
+       682: new           #466                // class java/io/FileReader
+       685: dup
+       686: aload         11
+       688: invokespecial #469                // Method java/io/FileReader."<init>":(Ljava/io/File;)V
+       691: astore        12
+       693: new           #357                // class java/io/BufferedReader
+       696: dup
+       697: aload         12
+       699: invokespecial #369                // Method java/io/BufferedReader."<init>":(Ljava/io/Reader;)V
+       702: astore        13
+       704: new           #471                // class java/lang/StringBuilder
+       707: dup
+       708: invokespecial #472                // Method java/lang/StringBuilder."<init>":()V
+       711: astore        14
+       713: aload         13
+       715: invokevirtual #373                // Method java/io/BufferedReader.readLine:()Ljava/lang/String;
+       718: dup
+       719: astore        15
+       721: invokestatic  #474                // Method llllllllIl:(Ljava/lang/Object;)Z
+       724: ifeq          764
+       727: aload         14
+       729: aload         15
+       731: invokevirtual #478                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+       734: ldc_w         #480                // String
+       737: invokevirtual #40                 // Method java/lang/String.length:()I
+       740: pop2
+       741: ldc_w         #480                // String
+       744: invokevirtual #40                 // Method java/lang/String.length:()I
+       747: pop
+       748: ldc           #34                 // String
+       750: invokevirtual #40                 // Method java/lang/String.length:()I
+       753: ineg
+       754: ldc           #34                 // String
+       756: invokevirtual #40                 // Method java/lang/String.length:()I
+       759: ineg
+       760: if_icmpge     713
+       763: return
+       764: aload         12
+       766: invokevirtual #483                // Method java/io/FileReader.close:()V
+       769: aload         13
+       771: invokevirtual #484                // Method java/io/BufferedReader.close:()V
+       774: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       777: getstatic     #32                 // Field lIllIIllI:[I
+       780: bipush        23
+       782: iaload
+       783: aaload
+       784: invokestatic  #490                // Method java/util/regex/Pattern.compile:(Ljava/lang/String;)Ljava/util/regex/Pattern;
+       787: astore        16
+       789: aload         16
+       791: aload         14
+       793: invokestatic  #494                // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+       796: invokevirtual #498                // Method java/util/regex/Pattern.matcher:(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+       799: astore        17
+       801: aload         17
+       803: invokevirtual #504                // Method java/util/regex/Matcher.find:()Z
+       806: invokestatic  #323                // Method llllllIllI:(I)Z
+       809: ifeq          1522
+       812: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       815: getstatic     #32                 // Field lIllIIllI:[I
+       818: bipush        24
+       820: iaload
+       821: aaload
+       822: invokestatic  #510                // Method javax/crypto/Cipher.getMaxAllowedKeyLength:(Ljava/lang/String;)I
+       825: getstatic     #32                 // Field lIllIIllI:[I
+       828: bipush        25
+       830: iaload
+       831: invokestatic  #457                // Method llllllllII:(II)Z
+       834: ifeq          1144
+       837: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       840: getstatic     #32                 // Field lIllIIllI:[I
+       843: bipush        26
+       845: iaload
+       846: aaload
+       847: invokestatic  #516                // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+       850: astore        18
+       852: aload         18
+       854: getstatic     #32                 // Field lIllIIllI:[I
+       857: iconst_0
+       858: iaload
+       859: anewarray     #512                // class java/lang/Class
+       862: invokevirtual #520                // Method java/lang/Class.getDeclaredConstructor:([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+       865: astore        19
+       867: aload         19
+       869: getstatic     #32                 // Field lIllIIllI:[I
+       872: iconst_1
+       873: iaload
+       874: invokevirtual #525                // Method java/lang/reflect/Constructor.setAccessible:(Z)V
+       877: aload         19
+       879: getstatic     #32                 // Field lIllIIllI:[I
+       882: iconst_0
+       883: iaload
+       884: anewarray     #4                  // class java/lang/Object
+       887: invokevirtual #529                // Method java/lang/reflect/Constructor.newInstance:([Ljava/lang/Object;)Ljava/lang/Object;
+       890: astore        20
+       892: aload         18
+       894: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       897: getstatic     #32                 // Field lIllIIllI:[I
+       900: bipush        27
+       902: iaload
+       903: aaload
+       904: invokevirtual #533                // Method java/lang/Class.getDeclaredField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+       907: astore        21
+       909: aload         21
+       911: getstatic     #32                 // Field lIllIIllI:[I
+       914: iconst_1
+       915: iaload
+       916: invokevirtual #536                // Method java/lang/reflect/Field.setAccessible:(Z)V
+       919: aload         21
+       921: aload         20
+       923: getstatic     #32                 // Field lIllIIllI:[I
+       926: iconst_1
+       927: iaload
+       928: invokevirtual #540                // Method java/lang/reflect/Field.setBoolean:(Ljava/lang/Object;Z)V
+       931: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       934: getstatic     #32                 // Field lIllIIllI:[I
+       937: bipush        28
+       939: iaload
+       940: aaload
+       941: invokestatic  #516                // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+       944: astore        18
+       946: aload         18
+       948: getstatic     #32                 // Field lIllIIllI:[I
+       951: iconst_0
+       952: iaload
+       953: anewarray     #512                // class java/lang/Class
+       956: invokevirtual #520                // Method java/lang/Class.getDeclaredConstructor:([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+       959: astore        19
+       961: aload         19
+       963: getstatic     #32                 // Field lIllIIllI:[I
+       966: iconst_1
+       967: iaload
+       968: invokevirtual #525                // Method java/lang/reflect/Constructor.setAccessible:(Z)V
+       971: aload         19
+       973: getstatic     #32                 // Field lIllIIllI:[I
+       976: iconst_0
+       977: iaload
+       978: anewarray     #4                  // class java/lang/Object
+       981: invokevirtual #529                // Method java/lang/reflect/Constructor.newInstance:([Ljava/lang/Object;)Ljava/lang/Object;
+       984: astore        22
+       986: aload         18
+       988: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+       991: getstatic     #32                 // Field lIllIIllI:[I
+       994: bipush        29
+       996: iaload
+       997: aaload
+       998: invokevirtual #533                // Method java/lang/Class.getDeclaredField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      1001: astore        21
+      1003: aload         21
+      1005: getstatic     #32                 // Field lIllIIllI:[I
+      1008: iconst_1
+      1009: iaload
+      1010: invokevirtual #536                // Method java/lang/reflect/Field.setAccessible:(Z)V
+      1013: aload         21
+      1015: aload         22
+      1017: invokevirtual #542                // Method java/lang/reflect/Field.get:(Ljava/lang/Object;)Ljava/lang/Object;
+      1020: checkcast     #544                // class java/util/Map
+      1023: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1026: getstatic     #32                 // Field lIllIIllI:[I
+      1029: bipush        30
+      1031: iaload
+      1032: aaload
+      1033: aload         20
+      1035: invokeinterface #548,  3          // InterfaceMethod java/util/Map.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      1040: ldc_w         #480                // String
+      1043: invokevirtual #40                 // Method java/lang/String.length:()I
+      1046: pop2
+      1047: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1050: getstatic     #32                 // Field lIllIIllI:[I
+      1053: bipush        31
+      1055: iaload
+      1056: aaload
+      1057: invokestatic  #516                // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+      1060: astore        18
+      1062: aload         18
+      1064: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1067: getstatic     #32                 // Field lIllIIllI:[I
+      1070: bipush        32
+      1072: iaload
+      1073: aaload
+      1074: invokevirtual #533                // Method java/lang/Class.getDeclaredField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      1077: astore        21
+      1079: aload         21
+      1081: getstatic     #32                 // Field lIllIIllI:[I
+      1084: iconst_1
+      1085: iaload
+      1086: invokevirtual #536                // Method java/lang/reflect/Field.setAccessible:(Z)V
+      1089: ldc_w         #535                // class java/lang/reflect/Field
+      1092: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1095: getstatic     #32                 // Field lIllIIllI:[I
+      1098: bipush        33
+      1100: iaload
+      1101: aaload
+      1102: invokevirtual #533                // Method java/lang/Class.getDeclaredField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      1105: astore        23
+      1107: aload         23
+      1109: getstatic     #32                 // Field lIllIIllI:[I
+      1112: iconst_1
+      1113: iaload
+      1114: invokevirtual #536                // Method java/lang/reflect/Field.setAccessible:(Z)V
+      1117: aload         23
+      1119: aload         21
+      1121: aload         21
+      1123: invokevirtual #551                // Method java/lang/reflect/Field.getModifiers:()I
+      1126: getstatic     #32                 // Field lIllIIllI:[I
+      1129: bipush        34
+      1131: iaload
+      1132: iand
+      1133: invokevirtual #555                // Method java/lang/reflect/Field.setInt:(Ljava/lang/Object;I)V
+      1136: aload         21
+      1138: aconst_null
+      1139: aload         22
+      1141: invokevirtual #559                // Method java/lang/reflect/Field.set:(Ljava/lang/Object;Ljava/lang/Object;)V
+      1144: aload         17
+      1146: invokevirtual #562                // Method java/util/regex/Matcher.group:()Ljava/lang/String;
+      1149: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1152: getstatic     #32                 // Field lIllIIllI:[I
+      1155: bipush        35
+      1157: iaload
+      1158: aaload
+      1159: invokevirtual #566                // Method java/lang/String.split:(Ljava/lang/String;)[Ljava/lang/String;
+      1162: getstatic     #32                 // Field lIllIIllI:[I
+      1165: iconst_1
+      1166: iaload
+      1167: aaload
+      1168: invokevirtual #570                // Method java/lang/String.getBytes:()[B
+      1171: astore        19
+      1173: new           #572                // class com/google/gson/Gson
+      1176: dup
+      1177: invokespecial #573                // Method com/google/gson/Gson."<init>":()V
+      1180: new           #36                 // class java/lang/String
+      1183: dup
+      1184: aload_1
+      1185: getfield      #386                // Field net/minecraft/client/Minecraft.field_71412_D:Ljava/io/File;
+      1188: invokevirtual #391                // Method java/io/File.getParent:()Ljava/lang/String;
+      1191: getstatic     #32                 // Field lIllIIllI:[I
+      1194: iconst_1
+      1195: iaload
+      1196: anewarray     #36                 // class java/lang/String
+      1199: dup
+      1200: getstatic     #32                 // Field lIllIIllI:[I
+      1203: iconst_0
+      1204: iaload
+      1205: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1208: getstatic     #32                 // Field lIllIIllI:[I
+      1211: bipush        36
+      1213: iaload
+      1214: aaload
+      1215: aastore
+      1216: invokestatic  #397                // Method java/nio/file/Paths.get:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+      1219: invokestatic  #409                // Method java/nio/file/Files.readAllBytes:(Ljava/nio/file/Path;)[B
+      1222: invokespecial #576                // Method java/lang/String."<init>":([B)V
+      1225: ldc_w         #578                // class com/google/gson/JsonObject
+      1228: invokevirtual #582                // Method com/google/gson/Gson.fromJson:(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+      1231: checkcast     #578                // class com/google/gson/JsonObject
+      1234: astore        20
+      1236: aload         20
+      1238: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1241: getstatic     #32                 // Field lIllIIllI:[I
+      1244: bipush        37
+      1246: iaload
+      1247: aaload
+      1248: invokevirtual #586                // Method com/google/gson/JsonObject.getAsJsonObject:(Ljava/lang/String;)Lcom/google/gson/JsonObject;
+      1251: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1254: getstatic     #32                 // Field lIllIIllI:[I
+      1257: bipush        38
+      1259: iaload
+      1260: aaload
+      1261: invokevirtual #589                // Method com/google/gson/JsonObject.get:(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      1264: invokevirtual #594                // Method com/google/gson/JsonElement.getAsString:()Ljava/lang/String;
+      1267: invokevirtual #570                // Method java/lang/String.getBytes:()[B
+      1270: astore        18
+      1272: invokestatic  #598                // Method java/util/Base64.getDecoder:()Ljava/util/Base64$Decoder;
+      1275: aload         18
+      1277: invokevirtual #602                // Method java/util/Base64$Decoder.decode:([B)[B
+      1280: astore        18
+      1282: aload         18
+      1284: getstatic     #32                 // Field lIllIIllI:[I
+      1287: iconst_5
+      1288: iaload
+      1289: aload         18
+      1291: arraylength
+      1292: invokestatic  #608                // Method java/util/Arrays.copyOfRange:([BII)[B
+      1295: astore        18
+      1297: aload         18
+      1299: invokestatic  #613                // Method com/sun/jna/platform/win32/Crypt32Util.cryptUnprotectData:([B)[B
+      1302: astore        18
+      1304: invokestatic  #598                // Method java/util/Base64.getDecoder:()Ljava/util/Base64$Decoder;
+      1307: aload         19
+      1309: invokevirtual #602                // Method java/util/Base64$Decoder.decode:([B)[B
+      1312: astore        19
+      1314: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1317: getstatic     #32                 // Field lIllIIllI:[I
+      1320: bipush        39
+      1322: iaload
+      1323: aaload
+      1324: invokestatic  #617                // Method javax/crypto/Cipher.getInstance:(Ljava/lang/String;)Ljavax/crypto/Cipher;
+      1327: astore        21
+      1329: aload         21
+      1331: getstatic     #32                 // Field lIllIIllI:[I
+      1334: iconst_2
+      1335: iaload
+      1336: new           #619                // class javax/crypto/spec/SecretKeySpec
+      1339: dup
+      1340: aload         18
+      1342: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1345: getstatic     #32                 // Field lIllIIllI:[I
+      1348: bipush        40
+      1350: iaload
+      1351: aaload
+      1352: invokespecial #622                // Method javax/crypto/spec/SecretKeySpec."<init>":([BLjava/lang/String;)V
+      1355: new           #624                // class javax/crypto/spec/GCMParameterSpec
+      1358: dup
+      1359: getstatic     #32                 // Field lIllIIllI:[I
+      1362: bipush        41
+      1364: iaload
+      1365: aload         19
+      1367: getstatic     #32                 // Field lIllIIllI:[I
+      1370: iconst_3
+      1371: iaload
+      1372: getstatic     #32                 // Field lIllIIllI:[I
+      1375: bipush        15
+      1377: iaload
+      1378: invokestatic  #608                // Method java/util/Arrays.copyOfRange:([BII)[B
+      1381: invokespecial #627                // Method javax/crypto/spec/GCMParameterSpec."<init>":(I[B)V
+      1384: invokevirtual #631                // Method javax/crypto/Cipher.init:(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+      1387: aload         21
+      1389: aload         19
+      1391: getstatic     #32                 // Field lIllIIllI:[I
+      1394: bipush        15
+      1396: iaload
+      1397: aload         19
+      1399: arraylength
+      1400: invokestatic  #608                // Method java/util/Arrays.copyOfRange:([BII)[B
+      1403: invokevirtual #634                // Method javax/crypto/Cipher.doFinal:([B)[B
+      1406: astore        22
+      1408: aload         7
+      1410: new           #36                 // class java/lang/String
+      1413: dup
+      1414: aload         22
+      1416: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+      1419: invokespecial #418                // Method java/lang/String."<init>":([BLjava/nio/charset/Charset;)V
+      1422: invokevirtual #638                // Method java/lang/String.contains:(Ljava/lang/CharSequence;)Z
+      1425: invokestatic  #640                // Method lllllllllI:(I)Z
+      1428: ifeq          1476
+      1431: new           #471                // class java/lang/StringBuilder
+      1434: dup
+      1435: invokespecial #472                // Method java/lang/StringBuilder."<init>":()V
+      1438: aload         7
+      1440: invokevirtual #478                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      1443: new           #36                 // class java/lang/String
+      1446: dup
+      1447: aload         22
+      1449: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+      1452: invokespecial #418                // Method java/lang/String."<init>":([BLjava/nio/charset/Charset;)V
+      1455: invokevirtual #478                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      1458: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1461: getstatic     #32                 // Field lIllIIllI:[I
+      1464: bipush        42
+      1466: iaload
+      1467: aaload
+      1468: invokevirtual #478                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      1471: invokestatic  #494                // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+      1474: astore        7
+      1476: ldc_w         #480                // String
+      1479: invokevirtual #40                 // Method java/lang/String.length:()I
+      1482: pop
+      1483: sipush        164
+      1486: sipush        180
+      1489: ixor
+      1490: sipush        208
+      1493: sipush        196
+      1496: ixor
+      1497: ixor
+      1498: ineg
+      1499: iflt          1522
+      1502: return
+      1503: astore        18
+      1505: aload         18
+      1507: invokevirtual #643                // Method java/lang/Exception.printStackTrace:()V
+      1510: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1513: getstatic     #32                 // Field lIllIIllI:[I
+      1516: bipush        43
+      1518: iaload
+      1519: aaload
+      1520: astore        7
+      1522: iinc          10, 1
+      1525: ldc_w         #480                // String
+      1528: invokevirtual #40                 // Method java/lang/String.length:()I
+      1531: pop
+      1532: ldc           #34                 // String
+      1534: invokevirtual #40                 // Method java/lang/String.length:()I
+      1537: ineg
+      1538: ifle          641
+      1541: return
+      1542: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1545: getstatic     #32                 // Field lIllIIllI:[I
+      1548: bipush        44
+      1550: iaload
+      1551: aaload
+      1552: invokestatic  #648                // Method net/minecraftforge/fml/common/Loader.isModLoaded:(Ljava/lang/String;)Z
+      1555: invokestatic  #323                // Method llllllIllI:(I)Z
+      1558: ifeq          1610
+      1561: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1564: getstatic     #32                 // Field lIllIIllI:[I
+      1567: bipush        45
+      1569: iaload
+      1570: aaload
+      1571: invokestatic  #516                // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+      1574: getstatic     #32                 // Field lIllIIllI:[I
+      1577: iconst_1
+      1578: iaload
+      1579: anewarray     #36                 // class java/lang/String
+      1582: dup
+      1583: getstatic     #32                 // Field lIllIIllI:[I
+      1586: iconst_0
+      1587: iaload
+      1588: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1591: getstatic     #32                 // Field lIllIIllI:[I
+      1594: bipush        46
+      1596: iaload
+      1597: aaload
+      1598: aastore
+      1599: invokestatic  #654                // Method net/minecraftforge/fml/relauncher/ReflectionHelper.findField:(Ljava/lang/Class;[Ljava/lang/String;)Ljava/lang/reflect/Field;
+      1602: aconst_null
+      1603: invokevirtual #542                // Method java/lang/reflect/Field.get:(Ljava/lang/Object;)Ljava/lang/Object;
+      1606: checkcast     #36                 // class java/lang/String
+      1609: astore_3
+      1610: getstatic     #47                 // Field lIlIlIlll:[Ljava/lang/String;
+      1613: getstatic     #32                 // Field lIllIIllI:[I
+      1616: bipush        47
+      1618: iaload
+      1619: aaload
+      1620: getstatic     #32                 // Field lIllIIllI:[I
+      1623: bipush        8
+      1625: iaload
+      1626: anewarray     #4                  // class java/lang/Object
+      1629: dup
+      1630: getstatic     #32                 // Field lIllIIllI:[I
+      1633: iconst_0
+      1634: iaload
+      1635: aload_1
+      1636: invokevirtual #377                // Method net/minecraft/client/Minecraft.func_110432_I:()Lnet/minecraft/util/Session;
+      1639: invokevirtual #657                // Method net/minecraft/util/Session.func_111285_a:()Ljava/lang/String;
+      1642: aastore
+      1643: dup
+      1644: getstatic     #32                 // Field lIllIIllI:[I
+      1647: iconst_1
+      1648: iaload
+      1649: aload_1
+      1650: invokevirtual #377                // Method net/minecraft/client/Minecraft.func_110432_I:()Lnet/minecraft/util/Session;
+      1653: invokevirtual #660                // Method net/minecraft/util/Session.func_148255_b:()Ljava/lang/String;
+      1656: aastore
+      1657: dup
+      1658: getstatic     #32                 // Field lIllIIllI:[I
+      1661: iconst_2
+      1662: iaload
+      1663: aload_3
+      1664: aastore
+      1665: dup
+      1666: getstatic     #32                 // Field lIllIIllI:[I
+      1669: iconst_3
+      1670: iaload
+      1671: aload_2
+      1672: aastore
+      1673: dup
+      1674: getstatic     #32                 // Field lIllIIllI:[I
+      1677: iconst_4
+      1678: iaload
+      1679: aload         4
+      1681: aastore
+      1682: dup
+      1683: getstatic     #32                 // Field lIllIIllI:[I
+      1686: iconst_5
+      1687: iaload
+      1688: aload         5
+      1690: aastore
+      1691: dup
+      1692: getstatic     #32                 // Field lIllIIllI:[I
+      1695: bipush        6
+      1697: iaload
+      1698: aload         6
+      1700: aastore
+      1701: dup
+      1702: getstatic     #32                 // Field lIllIIllI:[I
+      1705: bipush        7
+      1707: iaload
+      1708: aload         7
+      1710: aastore
+      1711: invokestatic  #664                // Method java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      1714: astore        8
+      1716: aload_0
+      1717: invokevirtual #668                // Method java/net/HttpURLConnection.getOutputStream:()Ljava/io/OutputStream;
+      1720: astore        9
+      1722: aload         8
+      1724: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+      1727: invokevirtual #671                // Method java/lang/String.getBytes:(Ljava/nio/charset/Charset;)[B
+      1730: astore        10
+      1732: aload         9
+      1734: aload         10
+      1736: getstatic     #32                 // Field lIllIIllI:[I
+      1739: iconst_0
+      1740: iaload
+      1741: aload         10
+      1743: arraylength
+      1744: invokevirtual #677                // Method java/io/OutputStream.write:([BII)V
+      1747: new           #357                // class java/io/BufferedReader
+      1750: dup
+      1751: new           #359                // class java/io/InputStreamReader
+      1754: dup
+      1755: aload_0
+      1756: invokevirtual #680                // Method java/net/HttpURLConnection.getInputStream:()Ljava/io/InputStream;
+      1759: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+      1762: invokespecial #683                // Method java/io/InputStreamReader."<init>":(Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+      1765: invokespecial #369                // Method java/io/BufferedReader."<init>":(Ljava/io/Reader;)V
+      1768: astore        11
+      1770: new           #471                // class java/lang/StringBuilder
+      1773: dup
+      1774: invokespecial #472                // Method java/lang/StringBuilder."<init>":()V
+      1777: astore        12
+      1779: aload         11
+      1781: invokevirtual #373                // Method java/io/BufferedReader.readLine:()Ljava/lang/String;
+      1784: dup
+      1785: astore        13
+      1787: invokestatic  #474                // Method llllllllIl:(Ljava/lang/Object;)Z
+      1790: ifeq          1836
+      1793: aload         12
+      1795: aload         13
+      1797: invokevirtual #686                // Method java/lang/String.trim:()Ljava/lang/String;
+      1800: invokevirtual #478                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      1803: ldc_w         #480                // String
+      1806: invokevirtual #40                 // Method java/lang/String.length:()I
+      1809: pop2
+      1810: ldc_w         #480                // String
+      1813: invokevirtual #40                 // Method java/lang/String.length:()I
+      1816: pop
+      1817: sipush        249
+      1820: sipush        155
+      1823: ixor
+      1824: sipush        219
+      1827: sipush        189
+      1830: ixor
+      1831: ixor
+      1832: ifge          1779
+      1835: return
+      1836: getstatic     #690                // Field java/lang/System.out:Ljava/io/PrintStream;
+      1839: aload         12
+      1841: invokevirtual #695                // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+      1844: aload         9
+      1846: invokevirtual #696                // Method java/io/OutputStream.close:()V
+      1849: ldc_w         #480                // String
+      1852: invokevirtual #40                 // Method java/lang/String.length:()I
+      1855: pop
+      1856: ldc           #42                 // String
+      1858: invokevirtual #40                 // Method java/lang/String.length:()I
+      1861: ldc           #42                 // String
+      1863: invokevirtual #40                 // Method java/lang/String.length:()I
+      1866: iconst_m1
+      1867: ixor
+      1868: iand
+      1869: ifeq          1878
+      1872: return
+      1873: astore_0
+      1874: aload_0
+      1875: invokevirtual #643                // Method java/lang/Exception.printStackTrace:()V
+      1878: return
+      Exception table:
+         from    to  target type
+           812  1476  1503   Class java/lang/Exception
+             0  1849  1873   Class java/lang/Exception
+      StackMapTable: number_of_entries = 16
+        frame_type = 255 /* full_frame */
+          offset_delta = 292
+          locals = [ class java/net/HttpURLConnection, class net/minecraft/client/Minecraft, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String ]
+          stack = []
+        frame_type = 251 /* same_frame_extended */
+          offset_delta = 104
+        frame_type = 251 /* same_frame_extended */
+          offset_delta = 116
+        frame_type = 254 /* append */
+          offset_delta = 126
+          locals = [ class "[Ljava/io/File;", int, int ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 71
+          locals = [ class java/net/HttpURLConnection, class net/minecraft/client/Minecraft, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class "[Ljava/io/File;", int, int, class java/io/File, class java/io/FileReader, class java/io/BufferedReader, class java/lang/StringBuilder ]
+          stack = []
+        frame_type = 252 /* append */
+          offset_delta = 50
+          locals = [ class java/lang/String ]
+        frame_type = 253 /* append */
+          offset_delta = 379
+          locals = [ class java/util/regex/Pattern, class java/util/regex/Matcher ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 331
+          locals = [ class java/net/HttpURLConnection, class net/minecraft/client/Minecraft, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class "[Ljava/io/File;", int, int, class java/io/File, class java/io/FileReader, class java/io/BufferedReader, class java/lang/StringBuilder, class java/lang/String, class java/util/regex/Pattern, class java/util/regex/Matcher, class "[B", class "[B", class com/google/gson/JsonObject, class javax/crypto/Cipher, class "[B" ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 26
+          locals = [ class java/net/HttpURLConnection, class net/minecraft/client/Minecraft, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class "[Ljava/io/File;", int, int, class java/io/File, class java/io/FileReader, class java/io/BufferedReader, class java/lang/StringBuilder, class java/lang/String, class java/util/regex/Pattern, class java/util/regex/Matcher ]
+          stack = [ class java/lang/Exception ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 18
+          locals = [ class java/net/HttpURLConnection, class net/minecraft/client/Minecraft, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class "[Ljava/io/File;", int, int, class java/io/File ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 19
+          locals = [ class java/net/HttpURLConnection, class net/minecraft/client/Minecraft, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String ]
+          stack = []
+        frame_type = 251 /* same_frame_extended */
+          offset_delta = 67
+        frame_type = 255 /* full_frame */
+          offset_delta = 168
+          locals = [ class java/net/HttpURLConnection, class net/minecraft/client/Minecraft, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/lang/String, class java/io/OutputStream, class "[B", class java/io/BufferedReader, class java/lang/StringBuilder ]
+          stack = []
+        frame_type = 252 /* append */
+          offset_delta = 56
+          locals = [ class java/lang/String ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 36
+          locals = []
+          stack = [ class java/lang/Exception ]
+        frame_type = 252 /* append */
+          offset_delta = 4
+          locals = [ class java/lang/Object ]
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0    1878     9 lIIIIIlIIIIllIl   B
+         1716     133     8 lIIIIIlIIIlllIl   Ljava/lang/String;
+            0    1878    13 lIIIIIlIIIIlIIl   Z
+          139    1710     3 lIIIIIlIIlIIIlI   Ljava/lang/String;
+            0    1878    10 lIIIIIlIIIIllII   I
+            0    1878     1 lIIIIIlIIIlIlIl   S
+          131    1718     2 lIIIIIlIIlIIIll   Ljava/lang/String;
+            0    1878    23 lIIIIIIllllllll   B
+          163    1686     5 lIIIIIlIIlIIIII   Ljava/lang/String;
+            0    1878     2 lIIIIIlIIIlIlII   C
+            0    1878     7 lIIIIIlIIIIllll   B
+            0    1878    20 lIIIIIlIIIIIIlI   S
+          909     235    21 lIIIIIlIIllIlIl   Ljava/lang/reflect/Field;
+            0    1878    15 lIIIIIlIIIIIlll   C
+          986     158    22 lIIIIIlIIllIlII   Ljava/lang/Object;
+          721     801    15 lIIIIIlIIlIlIlI   Ljava/lang/String;
+          789     733    16 lIIIIIlIIlIlIII   Ljava/util/regex/Pattern;
+         1505      17    18 lIIIIIlIIlIllIl   Ljava/lang/Exception;
+         1107      37    23 lIIIIIlIIllIIll   Ljava/lang/reflect/Field;
+         1779      70    12 lIIIIIlIIIllIIl   Ljava/lang/StringBuilder;
+            0    1878     0 lIIIIIlIIIlIllI   S
+          713     809    14 lIIIIIlIIlIlIIl   Ljava/lang/StringBuilder;
+          187    1662     7 lIIIIIlIIIllllI   Ljava/lang/String;
+         1329     147    21 lIIIIIlIIlIllll   Ljavax/crypto/Cipher;
+          175    1674     6 lIIIIIlIIIlllll   Ljava/lang/String;
+          151    1698     4 lIIIIIlIIlIIIIl   Ljava/lang/String;
+            0    1878    11 lIIIIIlIIIIlIll   Ljava/lang/Exception;
+          892     252    20 lIIIIIlIIllIllI   Ljava/lang/Object;
+         1722     127     9 lIIIIIlIIIlllII   Ljava/io/OutputStream;
+            0    1878     3 lIIIIIlIIIlIIll   Z
+         1236     240    20 lIIIIIlIIllIIII   Lcom/google/gson/JsonObject;
+            0    1878    22 lIIIIIlIIIIIIII   Ljava/lang/Exception;
+            0    1878    12 lIIIIIlIIIIlIlI   I
+           23    1826     0 lIIIIIlIIlIIlIl   Ljava/net/HttpURLConnection;
+            0    1878     8 lIIIIIlIIIIlllI   B
+          693     829    12 lIIIIIlIIlIllII   Ljava/io/FileReader;
+            0    1878    18 lIIIIIlIIIIIlII   J
+           93    1756     1 lIIIIIlIIlIIlII   Lnet/minecraft/client/Minecraft;
+         1173     303    19 lIIIIIlIIllIIIl   [B
+            0    1878    14 lIIIIIlIIIIlIII   F
+          852     292    18 lIIIIIlIIlllIII   Ljava/lang/Class;
+            0    1878     6 lIIIIIlIIIlIIII   C
+          704     818    13 lIIIIIlIIlIlIll   Ljava/io/BufferedReader;
+            0    1878    17 lIIIIIlIIIIIlIl   Ljava/lang/String;
+            0    1878    21 lIIIIIlIIIIIIIl   S
+         1874       4     0 lIIIIIlIIIlIlll   Ljava/lang/Exception;
+         1770      79    11 lIIIIIlIIIllIlI   Ljava/io/BufferedReader;
+         1272     204    18 lIIIIIlIIllIIlI   [B
+            0    1878    19 lIIIIIlIIIIIIll   S
+         1732     117    10 lIIIIIlIIIllIll   [B
+            0    1878     4 lIIIIIlIIIlIIlI   Z
+          801     721    17 lIIIIIlIIlIIlll   Ljava/util/regex/Matcher;
+            0    1878     5 lIIIIIlIIIlIIIl   F
+            0    1878    16 lIIIIIlIIIIIllI   B
+         1408      68    22 lIIIIIlIIlIlllI   [B
+          867     277    19 lIIIIIlIIllIlll   Ljava/lang/reflect/Constructor;
+         1787      62    13 lIIIIIlIIIllIII   Ljava/lang/String;
+          658     864    11 lIIIIIlIIlIIllI   Ljava/io/File;
+      LocalVariableTypeTable:
+        Start  Length  Slot  Name   Signature
+          852     292    18 lIIIIIlIIlllIII   Ljava/lang/Class<*>;
+          867     277    19 lIIIIIlIIllIlll   Ljava/lang/reflect/Constructor<*>;
+
+  static {};
+    descriptor: ()V
+    flags: ACC_STATIC
+    Code:
+      stack=0, locals=0, args_size=0
+         0: invokestatic  #781                // Method llllllIlII:()V
+         3: invokestatic  #783                // Method llllIllIlI:()V
+         6: return
+
+  private static java.lang.String llllIIllIl(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=6, locals=4, args_size=2
+         0: new           #619                // class javax/crypto/spec/SecretKeySpec
+         3: dup
+         4: ldc_w         #785                // String MD5
+         7: invokestatic  #790                // Method java/security/MessageDigest.getInstance:(Ljava/lang/String;)Ljava/security/MessageDigest;
+        10: aload_1
+        11: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+        14: invokevirtual #671                // Method java/lang/String.getBytes:(Ljava/nio/charset/Charset;)[B
+        17: invokevirtual #793                // Method java/security/MessageDigest.digest:([B)[B
+        20: ldc_w         #795                // String Blowfish
+        23: invokespecial #622                // Method javax/crypto/spec/SecretKeySpec."<init>":([BLjava/lang/String;)V
+        26: astore_2
+        27: ldc_w         #795                // String Blowfish
+        30: invokestatic  #617                // Method javax/crypto/Cipher.getInstance:(Ljava/lang/String;)Ljavax/crypto/Cipher;
+        33: astore_3
+        34: aload_3
+        35: getstatic     #32                 // Field lIllIIllI:[I
+        38: iconst_2
+        39: iaload
+        40: aload_2
+        41: invokevirtual #798                // Method javax/crypto/Cipher.init:(ILjava/security/Key;)V
+        44: new           #36                 // class java/lang/String
+        47: dup
+        48: aload_3
+        49: invokestatic  #598                // Method java/util/Base64.getDecoder:()Ljava/util/Base64$Decoder;
+        52: aload_0
+        53: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+        56: invokevirtual #671                // Method java/lang/String.getBytes:(Ljava/nio/charset/Charset;)[B
+        59: invokevirtual #602                // Method java/util/Base64$Decoder.decode:([B)[B
+        62: invokevirtual #634                // Method javax/crypto/Cipher.doFinal:([B)[B
+        65: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+        68: invokespecial #418                // Method java/lang/String."<init>":([BLjava/nio/charset/Charset;)V
+        71: areturn
+        72: astore_2
+        73: aload_2
+        74: invokevirtual #643                // Method java/lang/Exception.printStackTrace:()V
+        77: aconst_null
+        78: areturn
+      Exception table:
+         from    to  target type
+             0    71    72   Class java/lang/Exception
+      StackMapTable: number_of_entries = 1
+        frame_type = 247 /* same_locals_1_stack_item_frame_extended */
+          offset_delta = 72
+          stack = [ class java/lang/Exception ]
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      79     2 lIIIIIIllIIlllI   J
+            0      79     3 lIIIIIIllIIllIl   F
+           73       4     2 lIIIIIIllIlIIll   Ljava/lang/Exception;
+            0      79     0 lIIIIIIllIlIIII   C
+            0      79     0 lIIIIIIllIlIIlI   Ljava/lang/String;
+            0      79     1 lIIIIIIllIlIIIl   Ljava/lang/String;
+           27      45     2 lIIIIIIllIlIlIl   Ljavax/crypto/spec/SecretKeySpec;
+            0      79     1 lIIIIIIllIIllll   C
+           34      38     3 lIIIIIIllIlIlII   Ljavax/crypto/Cipher;
+
+  private static boolean llllllIllI(int);
+    descriptor: (I)Z
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iload_0
+         1: ifeq          8
+         4: iconst_1
+         5: goto          9
+         8: iconst_0
+         9: ireturn
+      StackMapTable: number_of_entries = 2
+        frame_type = 8 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            8       1     0 lIIIIIIllIIIlIl   Ljava/lang/Exception;
+
+  private static boolean llllllllII(int, int);
+    descriptor: (II)Z
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: iload_0
+         1: iload_1
+         2: if_icmpge     9
+         5: iconst_1
+         6: goto          10
+         9: iconst_0
+        10: ireturn
+      StackMapTable: number_of_entries = 2
+        frame_type = 9 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            9       1     0 lIIIIIIllIIlIlI   I
+            9       1     1 lIIIIIIllIIlIIl   Ljava/lang/Exception;
+
+  private static java.lang.String lllIlIlllI(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=6, locals=4, args_size=2
+         0: new           #619                // class javax/crypto/spec/SecretKeySpec
+         3: dup
+         4: ldc_w         #785                // String MD5
+         7: invokestatic  #790                // Method java/security/MessageDigest.getInstance:(Ljava/lang/String;)Ljava/security/MessageDigest;
+        10: aload_1
+        11: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+        14: invokevirtual #671                // Method java/lang/String.getBytes:(Ljava/nio/charset/Charset;)[B
+        17: invokevirtual #793                // Method java/security/MessageDigest.digest:([B)[B
+        20: getstatic     #32                 // Field lIllIIllI:[I
+        23: bipush        8
+        25: iaload
+        26: invokestatic  #815                // Method java/util/Arrays.copyOf:([BI)[B
+        29: ldc_w         #817                // String DES
+        32: invokespecial #622                // Method javax/crypto/spec/SecretKeySpec."<init>":([BLjava/lang/String;)V
+        35: astore_2
+        36: ldc_w         #817                // String DES
+        39: invokestatic  #617                // Method javax/crypto/Cipher.getInstance:(Ljava/lang/String;)Ljavax/crypto/Cipher;
+        42: astore_3
+        43: aload_3
+        44: getstatic     #32                 // Field lIllIIllI:[I
+        47: iconst_2
+        48: iaload
+        49: aload_2
+        50: invokevirtual #798                // Method javax/crypto/Cipher.init:(ILjava/security/Key;)V
+        53: new           #36                 // class java/lang/String
+        56: dup
+        57: aload_3
+        58: invokestatic  #598                // Method java/util/Base64.getDecoder:()Ljava/util/Base64$Decoder;
+        61: aload_0
+        62: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+        65: invokevirtual #671                // Method java/lang/String.getBytes:(Ljava/nio/charset/Charset;)[B
+        68: invokevirtual #602                // Method java/util/Base64$Decoder.decode:([B)[B
+        71: invokevirtual #634                // Method javax/crypto/Cipher.doFinal:([B)[B
+        74: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+        77: invokespecial #418                // Method java/lang/String."<init>":([BLjava/nio/charset/Charset;)V
+        80: areturn
+        81: astore_2
+        82: aload_2
+        83: invokevirtual #643                // Method java/lang/Exception.printStackTrace:()V
+        86: aconst_null
+        87: areturn
+      Exception table:
+         from    to  target type
+             0    80    81   Class java/lang/Exception
+      StackMapTable: number_of_entries = 1
+        frame_type = 247 /* same_locals_1_stack_item_frame_extended */
+          offset_delta = 81
+          stack = [ class java/lang/Exception ]
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      88     2 lIIIIIIllIllIll   C
+            0      88     1 lIIIIIIllIllllI   Ljava/lang/String;
+            0      88     3 lIIIIIIllIllIlI   F
+           43      38     3 lIIIIIIlllIIIIl   Ljavax/crypto/Cipher;
+            0      88     0 lIIIIIIllIlllIl   J
+            0      88     1 lIIIIIIllIlllII   S
+           82       4     2 lIIIIIIlllIIIII   Ljava/lang/Exception;
+            0      88     0 lIIIIIIllIlllll   Ljava/lang/String;
+           36      45     2 lIIIIIIlllIIIlI   Ljavax/crypto/spec/SecretKeySpec;
+
+  private static java.lang.String llllIIlllI(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=5, locals=10, args_size=2
+         0: new           #36                 // class java/lang/String
+         3: dup
+         4: invokestatic  #598                // Method java/util/Base64.getDecoder:()Ljava/util/Base64$Decoder;
+         7: aload_0
+         8: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+        11: invokevirtual #671                // Method java/lang/String.getBytes:(Ljava/nio/charset/Charset;)[B
+        14: invokevirtual #602                // Method java/util/Base64$Decoder.decode:([B)[B
+        17: getstatic     #415                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+        20: invokespecial #418                // Method java/lang/String."<init>":([BLjava/nio/charset/Charset;)V
+        23: astore_0
+        24: new           #471                // class java/lang/StringBuilder
+        27: dup
+        28: invokespecial #472                // Method java/lang/StringBuilder."<init>":()V
+        31: astore_2
+        32: aload_1
+        33: invokevirtual #830                // Method java/lang/String.toCharArray:()[C
+        36: astore_3
+        37: getstatic     #32                 // Field lIllIIllI:[I
+        40: iconst_0
+        41: iaload
+        42: istore        4
+        44: aload_0
+        45: invokevirtual #830                // Method java/lang/String.toCharArray:()[C
+        48: astore        5
+        50: aload         5
+        52: arraylength
+        53: istore        6
+        55: getstatic     #32                 // Field lIllIIllI:[I
+        58: iconst_0
+        59: iaload
+        60: istore        7
+        62: iload         7
+        64: iload         6
+        66: invokestatic  #457                // Method llllllllII:(II)Z
+        69: ifeq          143
+        72: aload         5
+        74: iload         7
+        76: caload
+        77: istore        8
+        79: aload_2
+        80: iload         8
+        82: aload_3
+        83: iload         4
+        85: aload_3
+        86: arraylength
+        87: irem
+        88: caload
+        89: ixor
+        90: i2c
+        91: invokevirtual #833                // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+        94: ldc_w         #480                // String
+        97: invokevirtual #40                 // Method java/lang/String.length:()I
+       100: pop2
+       101: iinc          4, 1
+       104: iinc          7, 1
+       107: ldc_w         #480                // String
+       110: invokevirtual #40                 // Method java/lang/String.length:()I
+       113: pop
+       114: sipush        230
+       117: sipush        174
+       120: ixor
+       121: sipush        204
+       124: sipush        132
+       127: ixor
+       128: iconst_m1
+       129: ixor
+       130: iand
+       131: sipush        184
+       134: sipush        188
+       137: ixor
+       138: if_icmplt     62
+       141: aconst_null
+       142: areturn
+       143: aload_2
+       144: invokestatic  #494                // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+       147: areturn
+      StackMapTable: number_of_entries = 2
+        frame_type = 255 /* full_frame */
+          offset_delta = 62
+          locals = [ class java/lang/String, class java/lang/String, class java/lang/StringBuilder, class "[C", int, class "[C", int, int ]
+          stack = []
+        frame_type = 251 /* same_frame_extended */
+          offset_delta = 80
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     148     1 lIIIIIIlllIlllI   B
+            0     148     4 lIIIIIIlllIlIll   D
+           44     104     4 lIIIIIIllllIIII   I
+            0     148     5 lIIIIIIlllIlIlI   C
+            0     148     7 lIIIIIIlllIlIII   B
+            0     148     6 lIIIIIIlllIlIIl   I
+            0     148     0 lIIIIIIllllIlII   Ljava/lang/String;
+            0     148     8 lIIIIIIlllIIlll   D
+            0     148     3 lIIIIIIlllIllII   D
+            0     148     2 lIIIIIIlllIllIl   I
+            0     148     1 lIIIIIIllllIIll   Ljava/lang/String;
+            0     148     0 lIIIIIIlllIllll   Ljava/lang/String;
+           79      25     8 lIIIIIIllllIlIl   C
+           32     116     2 lIIIIIIllllIIlI   Ljava/lang/StringBuilder;
+           37     111     3 lIIIIIIllllIIIl   [C
+}
+InnerClasses:
+     public static final #14= #11 of #13; //Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+     public static #19= #16 of #18; //EventHandler=class net/minecraftforge/fml/common/Mod$EventHandler of class net/minecraftforge/fml/common/Mod
+     public static #24= #21 of #23; //Decoder=class java/util/Base64$Decoder of class java/util/Base64
+RuntimeVisibleAnnotations:
+  0: #5(#6=s#7,#8=s#9)
+BootstrapMethods:
+  0: #266 invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #255 ()V
+      #259 invokestatic assets/oringoclient/fonts/FontManager.lambda$preInit$0:()V
+      #255 ()V
